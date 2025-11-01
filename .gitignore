@@ -81,6 +81,7 @@ config/emi.css
 config/darkmodeeverywhereshaders*
 config/ichunutil/themes/
 config/gtceu.yaml
+config/konkrete/locals*
 defaultconfigs/ftbultimine/ftbultimine-*.snbt
 
 # Linux
