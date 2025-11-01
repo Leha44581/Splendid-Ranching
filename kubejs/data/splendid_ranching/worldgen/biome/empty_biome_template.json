@@ -1,8 +1,6 @@
 {
     "carvers": {
-        "air": [
-
-        ]
+        "air": [ ]
     },
     "downfall": 0.0,
     "effects": {
@@ -32,33 +30,22 @@
         [ ],
         [ ],
         [ ],
-        [
-
-        ],
         [ ],
         [ ],
-        [
-
-        ]
+        [ ],
+        [ ]
     ],
     "has_precipitation": false,
     "spawn_costs": { },
     "spawners": {
-        "ambient": [
-
-        ],
+        "ambient": [ ],
         "axolotls": [ ],
         "creature": [ ],
         "misc": [ ],
-        "monster": [
-
-        ],
+        "monster": [ ],
         "underground_water_creature": [ ],
-        "water_ambient": [
-
-        ],
-        "water_creature": [
-        ]
+        "water_ambient": [ ],
+        "water_creature": [ ]
     },
     "temperature": 0.8
 }

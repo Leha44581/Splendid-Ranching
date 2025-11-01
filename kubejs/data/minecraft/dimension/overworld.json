@@ -8,8 +8,8 @@
         {
           "biome": "splendid_ranching:ancient_ruins",
           "parameters": {
-            "continentalness": 0.9,
-            "depth": -2.0,
+            "continentalness": 0.5,
+            "depth": 1.0,
             "erosion": 0.0,
             "humidity": 0.0,
             "offset": 0.0,
@@ -20,8 +20,8 @@
         {
           "biome": "splendid_ranching:dry_reef",
           "parameters": {
-            "continentalness": 0.9,
-            "depth": -2.0,
+            "continentalness": 0.5,
+            "depth": 1.0,
             "erosion": 0.0,
             "humidity": 0.0,
             "offset": 0.0,
@@ -32,8 +32,32 @@
         {
           "biome": "splendid_ranching:indigo_quarry",
           "parameters": {
-            "continentalness": 0.9,
-            "depth": -2.0,
+            "continentalness": 0.5,
+            "depth": 1.0,
+            "erosion": 0.0,
+            "humidity": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "weirdness": 0.0
+          }
+        },
+        {
+          "biome": "splendid_ranching:magma_mounts",
+          "parameters": {
+            "continentalness": 0.5,
+            "depth": 1.0,
+            "erosion": 0.0,
+            "humidity": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "weirdness": 0.0
+          }
+        },
+        {
+          "biome": "splendid_ranching:magma_mounts",
+          "parameters": {
+            "continentalness": 0.5,
+            "depth": 1.0,
             "erosion": 0.0,
             "humidity": 0.0,
             "offset": 0.0,
@@ -44,8 +68,8 @@
         {
           "biome": "splendid_ranching:moss_blanket",
           "parameters": {
-            "continentalness": 0.9,
-            "depth": -2.0,
+            "continentalness": 0.5,
+            "depth": 1.0,
             "erosion": 0.0,
             "humidity": 0.0,
             "offset": 0.0,
@@ -56,8 +80,20 @@
         {
           "biome": "splendid_ranching:opal_desert",
           "parameters": {
-            "continentalness": 0.9,
-            "depth": -2.0,
+            "continentalness": 0.5,
+            "depth": 1.0,
+            "erosion": 0.0,
+            "humidity": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "weirdness": 0.0
+          }
+        },
+        {
+          "biome": "splendid_ranching:slime_sea",
+          "parameters": {
+            "continentalness": 0.5,
+            "depth": 1.0,
             "erosion": 0.0,
             "humidity": 0.0,
             "offset": 0.0,
@@ -68,8 +104,8 @@
         {
           "biome": "splendid_ranching:the_wilds",
           "parameters": {
-            "continentalness": 0.9,
-            "depth": -2.0,
+            "continentalness": 0.5,
+            "depth": 1.0,
             "erosion": 0.0,
             "humidity": 0.0,
             "offset": 0.0,
