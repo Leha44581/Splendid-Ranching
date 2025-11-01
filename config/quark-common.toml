@@ -45,7 +45,7 @@
 	tools = true
 	tweaks = true
 	world = true
-	mobs = true
+	mobs = false
 	client = true
 	experimental = true
 	oddities = true
@@ -766,21 +766,21 @@
 		"Smelt Raw Ore Blocks" = true
 
 [world]
-	"Ancient Wood" = true
-	"Azalea Wood" = true
-	"Big Stone Clusters" = true
+	"Ancient Wood" = false
+	"Azalea Wood" = false
+	"Big Stone Clusters" = false
 	"Blossom Trees" = true
 	"Chorus Vegetation" = true
 	Corundum = true
-	"Fairy Rings" = true
-	"Fallen Logs" = true
-	"Glimmering Weald" = true
-	"Monster Box" = true
-	"Nether Obsidian Spikes" = true
+	"Fairy Rings" = false
+	"Fallen Logs" = false
+	"Glimmering Weald" = false
+	"Monster Box" = false
+	"Nether Obsidian Spikes" = false
 	"New Stone Types" = true
 	"No More Lava Pockets" = true
-	Permafrost = true
-	"Spiral Spires" = true
+	Permafrost = false
+	"Spiral Spires" = false
 
 	[world.ancient_wood]
 		"Ancient Fruit Gives Exp" = true
