@@ -51,6 +51,7 @@ build/
 !/config/sophisticatedstorage-client.toml
 !/config/**/darkmodeeverywhere-client.toml
 !/config/create-client.toml
+!/config/botania-client.toml
 
 # Configs (generaly ones that tend to edit the date on launch)
 config/fml.toml

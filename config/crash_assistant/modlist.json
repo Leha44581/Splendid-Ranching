@@ -99,6 +99,11 @@
     "modId": "clumps",
     "version": "12.0.0.4"
   },
+  "configured-forge-1.20.1-2.2.3.jar": {
+    "jarName": "configured-forge-1.20.1-2.2.3.jar",
+    "modId": "configured",
+    "version": "2.2.3"
+  },
   "connectivity-1.20.1-6.5.jar": {
     "jarName": "connectivity-1.20.1-6.5.jar",
     "modId": "connectivity",
