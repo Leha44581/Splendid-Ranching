@@ -8,7 +8,13 @@ global.baseSlimeData = {
         currentMultiplier: 1, // multiplier for a slimes plort, changes daily based on sales of plorts
         minMultiplier: 0.5, // the lowest the multiplier can go for this slimes plort market adjustments
         maxMultiplier: 2, // the highest the multiplier can go for this slimes plort from market adjustments
-        slimeDupeCost: 32 // how many plorts it costs to create this slimes heart in the plort press
+        slimeDupeCost: 8, // how many plorts it costs to create this slimes heart in the plort press
+        spawning: { // spawning data for this slime, used with EntityJS (NYI)
+            biome: "#minecraft:is_overworld", // biome to spawn in
+            weight: 10, // weight for spawning
+            min: 3, // minimum amount of slimes to spawn per pack
+            max: 5 // maximum amount of slimes to spawn per pack
+        }
     },
 
     // tier 1 breed
