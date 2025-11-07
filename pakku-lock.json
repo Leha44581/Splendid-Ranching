@@ -1412,6 +1412,44 @@
             ]
         },
         {
+            "pakku_id": "9zPqH8HHvWHVKNRR",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-extra-gauges"
+            },
+            "name": {
+                "curseforge": "Create: Extra Gauges"
+            },
+            "id": {
+                "curseforge": "1263228"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "extra_gauges-2.0.7.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7058/464/extra_gauges-2.0.7.jar",
+                    "id": "7058464",
+                    "parent_id": "1263228",
+                    "hashes": {
+                        "sha1": "6f3331cc877bfaf15bb58723ff3129fc3207d296",
+                        "md5": "ffdf36ce4202c6136f90986e65e1b76e"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 1029438,
+                    "date_published": "2025-10-02T16:45:50.227Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "LVdANQujofVJNGcH",
             "type": "MOD",
             "slug": {
@@ -2562,42 +2600,6 @@
                     "required_dependencies": [],
                     "size": 134551,
                     "date_published": "2024-10-23T17:31:24.767Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "mxNe3XR1n1Ezul26",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "immersive-aircraft"
-            },
-            "name": {
-                "curseforge": "Immersive Aircraft [Fabric/Forge]"
-            },
-            "id": {
-                "curseforge": "666014"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "immersive_aircraft-1.4.0+1.20.1-forge.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6972/825/immersive_aircraft-1.4.0+1.20.1-forge.jar",
-                    "id": "6972825",
-                    "parent_id": "666014",
-                    "hashes": {
-                        "sha1": "64e6c792c5208005ee6b099e8fb7d2738873737d",
-                        "md5": "f49ff767f611a95f9bd29a0e9977d9d5"
-                    },
-                    "required_dependencies": [],
-                    "size": 2428368,
-                    "date_published": "2025-09-07T14:19:09.407Z"
                 }
             ]
         },

@@ -13,11 +13,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			icon: {
-				Count: 1
-				id: "essentials:circuit_wrench"
-				tag: { }
-			}
+			icon: "essentials:wire_circuit"
 			id: "0A24BFF750356556"
 			tasks: [
 				{
@@ -119,16 +115,6 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -4.5d
-		}
-		{
-			id: "230092FF39C7C953"
-			tasks: [{
-				id: "6C415A5FAACFCECC"
-				item: "quark:obsidian_pressure_plate"
-				type: "item"
-			}]
-			x: -1.5d
 			y: -4.5d
 		}
 		{
@@ -430,7 +416,7 @@
 				type: "checkmark"
 			}]
 			x: -6.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			id: "3112B74C94CA295F"
@@ -495,7 +481,7 @@
 				item: "essentials:slotted_chest"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.0d
 			y: -1.0d
 		}
 		{
@@ -557,6 +543,35 @@
 			}]
 			x: -10.0d
 			y: -2.0d
+		}
+		{
+			id: "2076D83A8E9ACD0B"
+			tasks: [{
+				id: "243A5271B052A6F0"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			id: "22A8936C2A476C30"
+			tasks: [{
+				id: "156FE0AE76619D74"
+				item: "quark:crate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			id: "703928B683DFF30D"
+			tasks: [{
+				id: "13337EF3D5917D90"
+				item: "essentials:wrench"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
 		}
 	]
 	title: "&4 Other Automation"
