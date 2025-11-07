@@ -1,0 +1,12 @@
+{
+  "breed": "fungus",
+  "name": "Fungus Slime",
+  "color": "#ff4e4e",
+  "particle": { "item": "minecraft:pink_concrete" },
+  "hat_y_offset": -0.55,
+  "diet": "diet.splendid_slimes.abyssal",
+  "foods": [{ "tag": "minecraft:flowers" }],
+  "favorite_food": {
+    "item": "minecraft:blue_orchid"
+  }
+}

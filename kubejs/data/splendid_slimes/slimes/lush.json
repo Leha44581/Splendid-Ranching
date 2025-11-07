@@ -1,0 +1,12 @@
+{
+  "breed": "lush",
+  "name": "lush Slime",
+  "color": "#16852b",
+  "particle": { "item": "minecraft:pink_concrete" },
+  "hat_y_offset": -0.55,
+  "diet": "diet.splendid_slimes.abyssal",
+  "foods": [{ "tag": "minecraft:flowers" }],
+  "favorite_food": {
+    "item": "minecraft:blue_orchid"
+  }
+}

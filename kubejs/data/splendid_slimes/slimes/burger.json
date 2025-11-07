@@ -1,0 +1,12 @@
+{
+  "breed": "burger",
+  "name": "Burger Slime",
+  "color": "#723a1e",
+  "particle": { "item": "minecraft:pink_concrete" },
+  "hat_y_offset": -0.55,
+  "diet": "placeholder",
+  "foods": [{ "tag": "minecraft:flowers" }],
+  "favorite_food": {
+    "item": "minecraft:blue_orchid"
+  }
+}

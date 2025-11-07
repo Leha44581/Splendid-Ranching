@@ -1,4 +1,11 @@
-ServerEvents.tags('worldgen/biome', e=> {
+ServerEvents.tags('item', e => {
+    // causes ftb to check nbt on these items in quests without setting per quest
+    e.add('itemfilters:check_nbt', [
+        'splendid_slimes:plort', 'splendid_slimes:slime_heart', 'splendid_slimes:slime_item'
+    ])
+})
+
+ServerEvents.tags('worldgen/biome', e => {
     // e.add('minecraft:is_overworld', [
     //     'splendid_ranching:ancient_ruins',
     //     'splendid_ranching:dry_reef',
