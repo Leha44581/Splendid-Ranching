@@ -1,11 +1,6 @@
-Slimes to fit
-- Minty (Dragon breath)
+Base Slimes to fit:
 - Orby (Experience) *
-- Phantom 
-- Prisma (Prismarine)
 - Puddle *
-- Rotting (Zombie)
-- Shulking (Shulker)
 - Slimy (Base, pink) *
 - Sweet (Sugar) *
 - Webby (Cobweb/string) *
@@ -16,10 +11,15 @@ Slimes to fit
 - Blazing (Blaze) *
 - Bony (Skeleton) *
 - Boomcat (Gunpowder) *
+
+Base slimes not being used:
 - Ender 
 - Gold
-
-* - In use
+- Rotting (Zombie)
+- Shulking (Shulker)
+- Phantom 
+- Minty (Dragon breath)
+- Prisma (Prismarine)
 
 Biome Entry
 - Biome description
@@ -29,40 +29,30 @@ Biome Entry
 Aboveground
 - Ancient ruins
 	- Mysterious ruins with ancient unnatural structures
-	- Minty, 
 - Dry reef
 	- Arid and wind-swept rocklands
-	- Slimy, Sweet, Boomcat, 
 - Indigo quarry
 	- Winding network of cliffs with crystal formations
-	- Bitwise, All-Seeing, Webby, Weeping
-	- 
 - Magma Mounts
 	- A scorching high up volcanic environment
-	- Blazing, Bony, Luminous, 
 - Opal desert
 	- A curious odd desert, far dunes with large crystals pertruding form the sands
-	- Puddle, Orby, Luminous, Gold
-	- 
-- The wilds
-	- A lush collection of ancient untamed islands
-	- 
+- Moss blanket
+	- A lush almost jungle like biome, high cliffs and tangling knots
 
 Underground
 - Caves/dripstone caves?
 	- The caves below, monstrous slimes
 - Candy cavity
-	- A colorful and sweet land with sugary slimes
-	- Sweet slime
+	- Colorful and sweet land with sugary slimes
 - Forlorn hollows
 	- A dark, damp, unsettling place 
-	- 
 - Magnetic caves
-	- 
+	- Rocky cavern full of red and blue crystals with attractive and repellent properties
 - Primordial caves
-	- 
+	- A lush underground with prehistoric carvings, where ancient flora and fauna are present
 - Toxic caves
-	- 
+	- A dark radioactive cave featuring a sea of acid 
 
 Other
 - Abyssal chasm
