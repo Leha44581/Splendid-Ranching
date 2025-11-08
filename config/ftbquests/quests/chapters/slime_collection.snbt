@@ -146,10 +146,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"44F2EA274D0251D3"
-				"57C0B3292BFDF2AB"
-			]
+			dependencies: ["57C0B3292BFDF2AB"]
 			id: "06BB4671BDC0A766"
 			tasks: [{
 				id: "5E40E9FE2A4160C2"
@@ -168,10 +165,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"1A6990DB1DE87EED"
-				"67F65BF89D1D1257"
-			]
+			dependencies: ["1A6990DB1DE87EED"]
 			id: "51DBC0A96CCD6627"
 			tasks: [{
 				id: "6DA23E4A2209DBD6"
@@ -190,10 +184,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"341B1C8A7CA22C8B"
-				"44F2EA274D0251D3"
-			]
 			id: "530B9AF1192EDDF4"
 			tasks: [{
 				id: "0F6E2969F2DABD7A"
@@ -212,10 +202,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"44F2EA274D0251D3"
-				"57C0B3292BFDF2AB"
-			]
+			dependencies: ["57C0B3292BFDF2AB"]
 			id: "50AE7ECCF58F4E9F"
 			tasks: [{
 				id: "7DB5511336561C80"
@@ -234,10 +221,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"44F2EA274D0251D3"
-				"55F0A87010E43D64"
-			]
 			id: "4F42D5F847508066"
 			tasks: [{
 				id: "440DD9CEB0446952"
@@ -256,10 +239,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"530B9AF1192EDDF4"
-				"44F2EA274D0251D3"
-			]
+			dependencies: ["530B9AF1192EDDF4"]
 			id: "2735966429A60088"
 			tasks: [{
 				id: "360E7BD91B957CCE"
@@ -280,7 +260,6 @@
 		{
 			dependencies: [
 				"54F64EB116EEA59C"
-				"04348202EB81175E"
 				"1A6990DB1DE87EED"
 			]
 			id: "3B7CE5A7EAA96817"
@@ -359,7 +338,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 0.5d
 		}
 		{
@@ -381,10 +360,7 @@
 			y: 5.5d
 		}
 		{
-			dependencies: [
-				"1548295E9A7F5CA9"
-				"09E217B6D14E3634"
-			]
+			dependencies: ["09E217B6D14E3634"]
 			id: "0F78CB79755F9CB5"
 			tasks: [{
 				id: "247FBD525ACF7809"
@@ -403,10 +379,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"44F2EA274D0251D3"
-				"57C0B3292BFDF2AB"
-			]
+			dependencies: ["57C0B3292BFDF2AB"]
 			id: "256C54725BEFD9B1"
 			tasks: [{
 				id: "09F7745FB51A820D"
@@ -428,7 +401,6 @@
 			dependencies: [
 				"2735966429A60088"
 				"19B9A4B363552F3A"
-				"44F2EA274D0251D3"
 			]
 			id: "67193DFECF2CC18E"
 			tasks: [{
@@ -461,6 +433,7 @@
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: -2.0d
 			y: 0.5d
@@ -480,30 +453,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"44F2EA274D0251D3"
-				"6D2B7FFCA328CCE7"
-			]
-			id: "081C507C6FB5CDE0"
-			tasks: [{
-				id: "5E121E821FB25EF3"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:webby"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: 4.5d
+			x: 4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -526,84 +477,6 @@
 			}]
 			x: 2.0d
 			y: 5.5d
-		}
-		{
-			id: "1548295E9A7F5CA9"
-			tasks: [{
-				id: "54B423C77A2CE3B4"
-				title: "rock slime"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.5d
-		}
-		{
-			id: "44F2EA274D0251D3"
-			tasks: [{
-				id: "6BE99E3CEC5BD91A"
-				title: "Monster slime"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: 0.5d
-		}
-		{
-			id: "341B1C8A7CA22C8B"
-			tasks: [{
-				id: "3AB0A365386A12A7"
-				title: "Fire slime"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 0.5d
-		}
-		{
-			id: "55F0A87010E43D64"
-			tasks: [{
-				id: "282CA9BF3DFC7EB6"
-				title: "Tabby slime"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"530B9AF1192EDDF4"
-				"1548295E9A7F5CA9"
-			]
-			id: "4368B56AEB3C8FF2"
-			tasks: [{
-				id: "6BEB8D1A45C7F89A"
-				title: "Magma slime"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"1548295E9A7F5CA9"
-				"1A6990DB1DE87EED"
-			]
-			id: "04348202EB81175E"
-			tasks: [{
-				id: "3138FFAF4A403603"
-				title: "Metallic slime"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: 4.5d
-		}
-		{
-			id: "6D2B7FFCA328CCE7"
-			tasks: [{
-				id: "427521B6FC9A083D"
-				title: "Lush slime"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: 1.5d
 		}
 		{
 			description: [
@@ -707,314 +580,6 @@
 			y: -7.0d
 		}
 		{
-			id: "67F65BF89D1D1257"
-			tasks: [{
-				id: "625EEAE140EE7623"
-				title: "Dusty slime"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 1.5d
-		}
-		{
-			disable_toast: true
-			id: "5C01695504BA2BC3"
-			tasks: [{
-				id: "3E297DF584141E02"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:slimy"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: -2.0d
-		}
-		{
-			disable_toast: true
-			id: "0E3BEEBD1E7740BD"
-			tasks: [{
-				id: "7DE48DB742361489"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:slimy"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: -5.0d
-		}
-		{
-			disable_toast: true
-			id: "2D8A718ED3C1CF43"
-			tasks: [{
-				id: "6D387A311F7FA8AC"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:slimy"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: -6.0d
-		}
-		{
-			id: "4C2EC45D8B93041D"
-			tasks: [{
-				id: "76936681E2DE13C4"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:puddle"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: -7.0d
-		}
-		{
-			id: "72DEADA063CFD210"
-			tasks: [{
-				id: "520D5E7F83830F7F"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:puddle"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: -5.0d
-		}
-		{
-			id: "5028AABD8DCAC4D0"
-			tasks: [{
-				id: "099F88ACCD07631D"
-				title: "rock slime"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: -3.0d
-		}
-		{
-			id: "75FB6AB9296F50A6"
-			tasks: [{
-				id: "672333EB518AB0F2"
-				title: "rock slime"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: -3.0d
-		}
-		{
-			id: "1A019FD1C9A4B8BC"
-			tasks: [{
-				id: "798B9C0BA257F600"
-				title: "Monster slime"
-				type: "checkmark"
-			}]
-			x: -2.5d
-			y: -4.0d
-		}
-		{
-			id: "702BD4B598005B91"
-			tasks: [{
-				id: "4915C0FB34692EBC"
-				title: "Fire slime"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: -4.0d
-		}
-		{
-			id: "75EB08DC40B18934"
-			tasks: [{
-				id: "343CEDA41D267AA8"
-				title: "Fire slime"
-				type: "checkmark"
-			}]
-			x: -2.5d
-			y: -5.0d
-		}
-		{
-			id: "1E5159873B3A22FF"
-			tasks: [{
-				id: "38478C40BE25B1F1"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:orby"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: -6.0d
-		}
-		{
-			id: "7EB9D92EA28DA624"
-			tasks: [{
-				id: "4F8CF32E0DC4C7D6"
-				title: "Dusty slime"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: -6.0d
-		}
-		{
-			id: "71FC777CDE0863A0"
-			tasks: [{
-				id: "3021AC53FC4B2571"
-				title: "Lush slime"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: -5.0d
-		}
-		{
-			id: "53B20DA837CBDDDA"
-			tasks: [{
-				id: "2930D64149C2263E"
-				title: "Lush slime"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: -5.0d
-		}
-		{
-			id: "4B8842812B8722E8"
-			tasks: [{
-				id: "64B0B49A31F30B3A"
-				title: "rock slime"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: -4.0d
-		}
-		{
-			id: "1F8BF74B3115642D"
-			tasks: [{
-				id: "43C20DF8DAABEAF1"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:sweet"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: -6.0d
-		}
-		{
-			id: "27CC0F0336B9EA6F"
-			tasks: [{
-				id: "0625CEB6AC088A62"
-				title: "rock slime"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: -4.0d
-		}
-		{
-			id: "7A153CB967722FA5"
-			tasks: [{
-				id: "37E5DB777F089D47"
-				title: "Crystal slime"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: 1.5d
-		}
-		{
-			id: "51B1AC34CF6EDE8D"
-			tasks: [{
-				id: "1D3EA5DEA1849CDB"
-				title: "Crystal slime"
-				type: "checkmark"
-			}]
-			x: -2.5d
-			y: -3.0d
-		}
-		{
-			id: "5C8CED3415F158AD"
-			tasks: [{
-				id: "1E54E4189263CD16"
-				title: "Crystal slime"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: -3.0d
-		}
-		{
-			id: "65826F8CA8CB13BF"
-			tasks: [{
-				id: "37308B3E644C02E1"
-				title: "Dusty slime"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: -2.0d
-		}
-		{
-			disable_toast: true
-			id: "48950466D4B4AB1A"
-			tasks: [{
-				id: "1E369327B3F8BEBB"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:slimy"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: -2.0d
-		}
-		{
-			id: "53948C42F1CC54D0"
-			tasks: [{
-				id: "3E7A2B157164B381"
-				title: "Sandy slime"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 1.5d
-		}
-		{
 			id: "05FC34DDC03AD566"
 			tasks: [{
 				id: "2055549FD83C4889"
@@ -1065,16 +630,6 @@
 			y: 0.5d
 		}
 		{
-			id: "0AFA8866265F7157"
-			tasks: [{
-				id: "4D87E574406B6ACB"
-				title: "Ocean slime"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 1.5d
-		}
-		{
 			id: "536B9D65E40B1DAB"
 			tasks: [{
 				id: "53EEAC7B7EB04B0F"
@@ -1085,49 +640,90 @@
 			y: 1.5d
 		}
 		{
-			id: "3AA94DBB45D4C4A5"
+			id: "707488F243981774"
 			tasks: [{
-				id: "37F93A6E6A489FD3"
-				title: "Monster slime"
-				type: "checkmark"
+				id: "1E10B9C6DC8CFF46"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:monster"
+						}
+					}
+				}
+				type: "item"
 			}]
-			x: -3.5d
-			y: -2.0d
+			x: 1.0d
+			y: 0.5d
 		}
 		{
-			id: "15829EACDEC967B3"
+			id: "5EC77BFC2038ABA2"
 			tasks: [{
-				id: "5898723ABCC7DA88"
-				title: "Monster slime"
-				type: "checkmark"
+				id: "5D4555A24284B8E9"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:rock"
+						}
+					}
+				}
+				type: "item"
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
-			id: "4B19F305C91DDADC"
+			id: "4F8209100D13F58D"
 			tasks: [{
-				id: "4EDD5416F4C50C2F"
-				title: "Monster slime"
-				type: "checkmark"
+				id: "4D4FD277186F068F"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:tabby"
+						}
+					}
+				}
+				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
-			id: "417BC1B444563D87"
+			icon: {
+				Count: 1
+				id: "splendid_slimes:slime_item"
+				tag: {
+					slime: {
+						id: "splendid_slimes:lush"
+					}
+				}
+			}
+			id: "28D85A3B22E4845F"
 			tasks: [{
-				id: "5D1F35746EA3B27D"
-				title: "candy slime"
-				type: "checkmark"
+				id: "48ACBB01D15BB005"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:lush"
+						}
+					}
+				}
+				type: "item"
 			}]
-			x: -1.5d
-			y: -6.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
-			id: "6A870D137C8CCB1A"
+			id: "380F39C506CAF0E8"
 			tasks: [{
-				id: "254FD387A0790952"
+				id: "65EA2FC8F397810D"
 				item: {
 					Count: 1
 					id: "splendid_slimes:slime_item"
@@ -1138,144 +734,106 @@
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
-			x: -2.5d
-			y: -6.0d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
-			id: "10771D49436C81EE"
+			id: "0F3184AA9A7F9215"
 			tasks: [{
-				id: "32DEA86069E1C3BF"
+				id: "4A66BD89D51C84BE"
 				item: {
 					Count: 1
 					id: "splendid_slimes:slime_item"
 					tag: {
 						slime: {
-							id: "splendid_slimes:sweet"
+							id: "splendid_slimes:crystal"
 						}
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
-			x: -3.5d
-			y: -6.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
-			id: "1CA2E281C713BE35"
+			id: "46220822EECA2E67"
 			tasks: [{
-				id: "2937A5BCC43D5F6C"
-				title: "rad slime"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: -4.0d
-		}
-		{
-			id: "5497FFFD83484B67"
-			tasks: [{
-				id: "1ECF9BF13929D6D8"
-				title: "magnetic slime"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			id: "00050FD74C979BB5"
-			tasks: [{
-				id: "529DCEDBF8B28310"
-				title: "forsaken slime"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: -2.0d
-		}
-		{
-			id: "62F1E1111AB02271"
-			tasks: [{
-				id: "6A73DC932B27DD92"
-				title: "jurassic slime"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: -5.0d
-		}
-		{
-			id: "0B6469F7C5DEA74D"
-			tasks: [{
-				id: "328180DC5D6AAE23"
-				title: "Sandy slime"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: -2.0d
-		}
-		{
-			id: "725E175E07F5A4A0"
-			tasks: [{
-				id: "46C3825AC8A5F708"
-				title: "Sandy slime"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: -6.0d
-		}
-		{
-			id: "0B30484156191B97"
-			tasks: [{
-				id: "69567400B7E3DE01"
+				id: "52679D01DE5D101F"
 				item: {
 					Count: 1
 					id: "splendid_slimes:slime_item"
 					tag: {
 						slime: {
-							id: "splendid_slimes:orby"
+							id: "splendid_slimes:sandy"
 						}
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
-			x: 5.5d
-			y: -3.0d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
-			disable_toast: true
-			id: "01D74512FA4709A0"
+			id: "0319A496D4974231"
 			tasks: [{
-				id: "24A28E4EF3789FC4"
+				consume_items: true
+				id: "493506915015C3A2"
 				item: {
 					Count: 1
 					id: "splendid_slimes:slime_item"
 					tag: {
 						slime: {
-							id: "splendid_slimes:slimy"
+							id: "splendid_slimes:ocean"
 						}
 					}
 				}
 				type: "item"
+				weak_nbt_match: true
 			}]
-			x: 3.5d
-			y: -7.0d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
-			id: "3D05568C27566B5B"
+			id: "05FE873E813664F3"
 			tasks: [{
-				id: "40688784D602D2E9"
-				title: "Tabby slime"
-				type: "checkmark"
+				id: "228F174521C026A7"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:metallic"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
 			}]
-			x: 5.5d
-			y: -5.0d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
-			id: "07BCC93F479B3C60"
+			id: "2AFBCAC9F0546D94"
 			tasks: [{
-				id: "3E5D6DC5E5A7BDF1"
-				title: "Tabby slime"
-				type: "checkmark"
+				id: "6CA0D7D483CEBB64"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:magma"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
 			}]
-			x: 5.5d
-			y: -2.0d
+			x: -1.0d
+			y: 5.5d
 		}
 	]
 	title: "&c Gelapedia"
