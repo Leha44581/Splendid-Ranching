@@ -66,41 +66,75 @@
 	- Magnetic
 - Tier 1
 	- Bony
+		1. monster + dusty
 	- Rotting
+		1. monster + lush
 	- All-seeing
+		1. monster + slimy
 	- Blazing
+		1. monster + fire
 	- Prisma
+		1. crystal + puddle
 	- Bitwise
+		1. dusty + orby
 	- Boomcat
+		1. monster + tabby
 	- Fungus
+		1. puddle + rocky
 	- Ocean
+		1. puddle + sandy
 	- Stony
+		1. rocky + fire
 	- Tree
+		1. puddle + lush
 - Tier 2
 	- Ender
+		1. blazing + monster + crystal
 	- Luminous
+		1. blazing + bitwise
 	- Magma
+		1. rocky + monster + blazing
 	- Charred
+		1. tree + fire
 	- Weeping
+		1. blazing + monster + boomcat
 	- Crimson
+		1. fungus + blazing
 	- Warped
+		1. fungus + blazing
 	- Geode
+		1. stony + blazing + orby
 	- Gem
+		1. stony + prisma
 	- Phantom
+		1. mosnter + orby
 	- Dark
+		1. all seeing, forlorn, charred
 - Tier 3
 	- Shulking
+		1. ender + monster + weeping
 	- Metallic
+		1. geode + luminous + magma
 	- Minty
+		1. ender + rotton + sweet
 	- Jewel
+		1. luminous + gem + boomcat
 	- Infernal
+		1. magma + jurassic + blazing
+	- Mechanical
+		1. bitwise + tree + geode
 - Tier 4
 	- Gold
+		1. luminous + metallic
 	- Forge
+		1. metallic + infernal + charred
 	- Time
-	- Mechanical
+		1. phantom + sandy + mechanical
 - Tier 5
 	- Quantum
+		1. time + dark + magnetic
 	- Nuclear
+		1. rad + metallic + time
 - Other
 	- Burger
+		1. nuclear + quantum 
