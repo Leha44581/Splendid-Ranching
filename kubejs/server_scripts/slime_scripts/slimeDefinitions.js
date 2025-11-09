@@ -706,6 +706,24 @@ global.slimeDefinitionsData = {
             item: "minecraft:blue_orchid"
         }
     },
+    neodymium: {
+        breed: "neodymium",
+        name: "Neodymium",
+        color: "#896a8d",
+        particle: {
+            item: "minecraft:pink_concrete"
+        },
+        hat_y_offset: -0.55,
+        diet: "replace me",
+        foods: [
+            {
+                tag: "minecraft:flowers"
+            }
+        ],
+        favorite_food: {
+            item: "minecraft:blue_orchid"
+        }
+    },
     nuclear: {
         breed: "nuclear",
         name: "Nuclear",
@@ -936,6 +954,24 @@ global.slimeDefinitionsData = {
         breed: "rad",
         name: "Rad",
         color: "#6cbe3d",
+        particle: {
+            item: "minecraft:pink_concrete"
+        },
+        hat_y_offset: -0.55,
+        diet: "replace me",
+        foods: [
+            {
+                tag: "minecraft:flowers"
+            }
+        ],
+        favorite_food: {
+            item: "minecraft:blue_orchid"
+        }
+    },
+    radiant: {
+        breed: "radiant",
+        name: "Radiant",
+        color: "#f0ff80",
         particle: {
             item: "minecraft:pink_concrete"
         },
