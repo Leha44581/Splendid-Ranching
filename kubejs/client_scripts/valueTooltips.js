@@ -1,6 +1,6 @@
 let slimeData = {}
 
-NetworkEvents.dataReceived('kubejs:slime_data', e => {
+NetworkEvents.dataReceived('kubejs:slime_value_data', e => {
     slimeData = e.data
 })
 

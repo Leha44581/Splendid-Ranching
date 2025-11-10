@@ -7,11 +7,12 @@ ServerEvents.loaded(e => {
 })
 
 PlayerEvents.tick(e => {
-    if(Utils.server.tickCount % 200 === 0) {
+    if (Utils.server.tickCount % 200 === 0) {
         e.player.sendData('kubejs:slime_value_data', e.server.persistentData['slime_value_data'])
     }
 })
 
 ItemEvents.firstLeftClicked('minecraft:iron_sword', e => {
     e.server.persistentData['slime_value_data'] = global.baseSlimeValueData
+    console.log(e.server.persistentData['slime_value_data'])
 })

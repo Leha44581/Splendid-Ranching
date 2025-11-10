@@ -19,7 +19,7 @@ MBDMachineEvents.onTick("mbd2:selling_port", e => {
 
     if (Object.keys(plorts).length === 0) { return }
     let sellPrice = 0
-    let slimeData = Utils.server.persistentData['slime_data']
+    let slimeData = Utils.server.persistentData['slime_value_data']
 
     for (let plortid in plorts) {
         let count = plorts[plortid]
