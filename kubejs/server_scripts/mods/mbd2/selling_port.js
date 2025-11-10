@@ -6,26 +6,30 @@ MBDMachineEvents.onTick("mbd2:selling_port", e => {
     /** @type {ItemStackTransfer.prototype} */
     const storage = itemTrait.storage
 
-    machine.customData.putInt("sell_price", 0)
+    machine.customData.putInt("sell_price", 0) // base sell price to 0, changed later if any contents
 
     let plorts = {}
 
-    for (let i = 0; i < storage.getSlots(); i++) {
-        let stack = storage.getStackInSlot(i)
-        if (stack.isEmpty()) { continue }
-        let plortid = String(stack.nbt.plort.id).split(":")[1]
-        plorts[plortid] = (plorts[plortid] || 0) + stack.count
+    for (let i = 0; i < storage.getSlots(); i++) { // iterate every slot
+        let stack = storage.getStackInSlot(i) // get stack in slot
+        if (stack.isEmpty()) { continue } // skip if empty
+        let plortid = String(stack.nbt.plort.id).split(":")[1] // get plort breed e.g. "slimy"
+        plorts[plortid] = (plorts[plortid] || 0) + stack.count // add to the plorts object for price calculation
     }
 
-    if (Object.keys(plorts).length === 0) { return }
+    if (Object.keys(plorts).length === 0) { return } // if no plorts found in slots, return
     let sellPrice = 0
-    let slimeData = Utils.server.persistentData['slime_value_data']
+    let slimeData = Utils.server.persistentData['slime_value_data'] // get current plort value data
 
-    for (let plortid in plorts) {
+    for (let plortid in plorts) { // calculate sell price from all plorts stored
         let count = plorts[plortid]
         sellPrice += global.getSellPrice(plortid, count, slimeData)
     }
+    // store updated sell price to machine block entity data since
+    // the UI can't live update price when items are edited,
+    // but the block entity can per tick
     machine.customData.putInt("sell_price", sellPrice)
+    machine.customData.put("plort_data", plorts)
 })
 
 MBDMachineEvents.onUI("mbd2:selling_port", e => {
@@ -49,15 +53,20 @@ MBDMachineEvents.onUI("mbd2:selling_port", e => {
     label.setTextProvider(() => `sells for §6${machine.customData.getInt("sell_price")}§a☻`)
 
     button.setOnPressCallback(clickData => {
-        if (clickData.isRemote) { return }
-        slots.forEach((slot) => {
-            console.log(slot)
+        if (clickData.isRemote) { return } // if sell button clicked and not on client
+        let plorts = machine.customData.get("plort_data")
+
+        if (Object.keys(plorts).length === 0) { return } // return if no plort data, meaning empty
+
+        for (let slot of slots) { // remove items from all slots
+            if (slot.item.isEmpty()) { continue }
             slot.item = Item.empty
-        })
+        }
 
-        let sellPrice = machine.customData.getInt("sell_price")
-        let coinItems = global.getSellCoins(sellPrice)
+        let sellPrice = machine.customData.getInt("sell_price") // get sell price from machine data
+        let coinItems = global.getSellCoins(sellPrice) // get coin items from sell price
 
+        // iterate through coin items and pop them out of the machines top face
         for (let i = 0; i < coinItems.length; i++) {
             machine.level.getBlock(machine.pos).popItemFromFace(coinItems[i], "up")
             let a = i
@@ -66,5 +75,14 @@ MBDMachineEvents.onUI("mbd2:selling_port", e => {
                 block.popItemFromFace(coinItems[i], "up")
             })
         }
+
+        let dailySoldObj = machine.level.server.persistentData['daily_sold_plorts'] // get the daily sold plorts server data
+        // add sold plorts to the daily sold plorts server data
+        for (let plortid in plorts) {
+            dailySoldObj[plortid] = (dailySoldObj[plortid] || 0) + plorts[plortid]
+        }
+        machine.customData.put("plort_data", {}) // reset machine plort data
+
+        machine.level.server.persistentData['daily_sold_total'] += sellPrice // update daily sold total
     })
 })
