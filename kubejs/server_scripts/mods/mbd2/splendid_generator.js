@@ -55,7 +55,6 @@ MBDMachineEvents.onUI("mbd2:splendid_generator", e => {
         }
         textfield.setCurrentString(machine.customData.getInt("max_energy"))
 
-
         textfield.setTextResponder(s => {
             machine.customData.putInt("max_energy", Number(s))
         })
