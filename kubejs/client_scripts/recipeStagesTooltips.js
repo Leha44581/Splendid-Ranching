@@ -8,10 +8,7 @@ ItemEvents.tooltip(e => {
         for (let stageItem of stageObj.items) {
             e.addAdvanced(stageItem, (item, advanced, text) => {
                 let player = $Minecraft.getInstance().player
-                console.log(player)
-                console.log(player.stages)
                 if (player == null) return
-
                 if (player.stages.has(stageId)) { return }
 
                 text.add(text.length, [
