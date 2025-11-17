@@ -701,6 +701,43 @@
             ]
         },
         {
+            "pakku_id": "3NCpsuhjmO3AE9in",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "bookshelf"
+            },
+            "name": {
+                "curseforge": "Bookshelf"
+            },
+            "id": {
+                "curseforge": "228525"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Bookshelf-Forge-1.20.1-20.2.13.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5423/987/Bookshelf-Forge-1.20.1-20.2.13.jar",
+                    "id": "5423987",
+                    "parent_id": "228525",
+                    "hashes": {
+                        "sha1": "c53d9eb5ce9e8ef0f2ea9b11e478d84ce958c3e5",
+                        "md5": "46c8e7f9bcfa984bd576e448df2beb25"
+                    },
+                    "required_dependencies": [],
+                    "size": 343962,
+                    "date_published": "2024-06-13T15:17:32.300Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "WoziNxZDFdBSmp7d",
             "pakku_links": [
                 "MdS4Gvgmwpe7msnI",
@@ -1467,7 +1504,7 @@
             ]
         },
         {
-            "pakku_id": "UThpXLQo2aOJSztj",
+            "pakku_id": "ny4TDueIIvsW5N8C",
             "type": "MOD",
             "slug": {
                 "curseforge": "create-additional-logistics"
@@ -1481,27 +1518,27 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "createadditionallogistics-1.20.1-1.4.3.jar",
+                    "file_name": "createadditionallogistics-1.20.1-1.4.4.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
-                        "neoforge",
-                        "forge"
+                        "forge",
+                        "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7204/360/createadditionallogistics-1.20.1-1.4.3.jar",
-                    "id": "7204360",
+                    "url": "https://edge.forgecdn.net/files/7218/919/createadditionallogistics-1.20.1-1.4.4.jar",
+                    "id": "7218919",
                     "parent_id": "1359885",
                     "hashes": {
-                        "sha1": "6d2f84082954f57268bc52a70f10f6e0b50d6503",
-                        "md5": "3c29924cdcb00f37b0a762681de97151"
+                        "sha1": "15e34da52abb720d1fc07a8c124a7fe3a32befd7",
+                        "md5": "22876c70115917961cb3a716701b75a2"
                     },
                     "required_dependencies": [
                         "328085"
                     ],
-                    "size": 947064,
-                    "date_published": "2025-11-09T19:20:29.447Z"
+                    "size": 947419,
+                    "date_published": "2025-11-13T20:24:51.910Z"
                 }
             ]
         },
@@ -2771,6 +2808,45 @@
                     "required_dependencies": [],
                     "size": 34909449,
                     "date_published": "2023-12-26T06:47:10.720Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dcmWYvulmD7XjHhL",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "game-stages"
+            },
+            "name": {
+                "curseforge": "Game Stages"
+            },
+            "id": {
+                "curseforge": "268655"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "GameStages-Forge-1.20.1-15.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5790/361/GameStages-Forge-1.20.1-15.0.2.jar",
+                    "id": "5790361",
+                    "parent_id": "268655",
+                    "hashes": {
+                        "sha1": "e17306593188b9fd16170a9dc47a8e0051a9f1e7",
+                        "md5": "bddb7414b6e27fcb60e20f9eedea4333"
+                    },
+                    "required_dependencies": [
+                        "228525"
+                    ],
+                    "size": 68468,
+                    "date_published": "2024-10-07T02:36:50.227Z"
                 }
             ]
         },
@@ -4594,6 +4670,44 @@
             ]
         },
         {
+            "pakku_id": "irX2gbIlqO4XkOCh",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "recipe-stages"
+            },
+            "name": {
+                "curseforge": "Recipe Stages"
+            },
+            "id": {
+                "curseforge": "280554"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "RecipeStages-8.0.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5173/574/RecipeStages-8.0.0.2.jar",
+                    "id": "5173574",
+                    "parent_id": "280554",
+                    "hashes": {
+                        "sha1": "f021063c46a2ce0245c1e42c4708c9cf59e39e21",
+                        "md5": "251f7488befbde2bc8e48950e9b2ae8e"
+                    },
+                    "required_dependencies": [
+                        "268655"
+                    ],
+                    "size": 50691,
+                    "date_published": "2024-03-11T05:28:56.897Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "XXzVhO12K1uiDTsx",
             "type": "MOD",
             "slug": {
@@ -4969,7 +5083,7 @@
             ]
         },
         {
-            "pakku_id": "EYO1dSEBD7EqA8km",
+            "pakku_id": "k4IPMz5Rrtt9hUbb",
             "type": "MOD",
             "slug": {
                 "curseforge": "structurify"
@@ -4983,7 +5097,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "structurify-forge-2.0.5a+mc1.20.1.jar",
+                    "file_name": "structurify-forge-2.0.6a+mc1.20.1.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -4992,18 +5106,18 @@
                         "forge"
                     ],
                     "release_type": "alpha",
-                    "url": "https://edge.forgecdn.net/files/7207/337/structurify-forge-2.0.5a+mc1.20.1.jar",
-                    "id": "7207337",
+                    "url": "https://edge.forgecdn.net/files/7217/181/structurify-forge-2.0.6a+mc1.20.1.jar",
+                    "id": "7217181",
                     "parent_id": "1087551",
                     "hashes": {
-                        "sha1": "ad57aa4563fbc51636bf1fdfa5a324f892f593dc",
-                        "md5": "7a74deb371e8869857ab65fe40371cfb"
+                        "sha1": "d25595feb12f914601e525f0cde9dcd9c815eb4a",
+                        "md5": "fb17a07bab3b57e805fcb0506d9e3cf2"
                     },
                     "required_dependencies": [
                         "667299"
                     ],
-                    "size": 531380,
-                    "date_published": "2025-11-10T17:51:03.903Z"
+                    "size": 532259,
+                    "date_published": "2025-11-13T09:17:20.100Z"
                 }
             ]
         },
