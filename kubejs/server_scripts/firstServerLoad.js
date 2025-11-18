@@ -1,6 +1,7 @@
 // first server load 
 ServerEvents.loaded(e => {
-    if (e.server.persistentData['started'] == false) {
+    let started = e.server.persistentData['started']
+    if (started == undefined || !started) {
         //  setting game rules
         e.server.gameRules.set("doTraderSpawning", false)
         e.server.gameRules.set("doInsomnia", false)
