@@ -401,6 +401,11 @@
 			}
 			id: "24EC9B4811458C2E"
 			min_width: 350
+			rewards: [{
+				id: "3400BD81899835A5"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "How hungry."
 			tasks: [{
@@ -472,6 +477,12 @@
 			icon: "mbd2:selling_port"
 			id: "3A30D0E70BEA4946"
 			min_width: 300
+			rewards: [{
+				count: 16
+				id: "25E0880387928BEF"
+				item: "splendid_slimes:corral_block"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Cha-ching!"
 			tasks: [
@@ -506,13 +517,20 @@
 				""
 				"The chance of each output is listed in your Recipe Guide"
 			]
+			icon: "splendid_slimes:plort_rippit"
 			id: "01150FF03DEBB716"
 			min_width: 300
-			shape: "hexagon"
-			tasks: [{
-				id: "16E1630DD18F33D9"
-				item: "splendid_slimes:plort_rippit"
+			rewards: [{
+				count: 16
+				id: "02C2C8B5ED22AD03"
+				item: "minecraft:iron_ingot"
 				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Welcome back frogport"
+			tasks: [{
+				id: "6541908E77ABDAD1"
+				type: "checkmark"
 			}]
 			title: "Resource Harvesting"
 			x: -3.5d
@@ -528,6 +546,23 @@
 			icon: "splendid_slimes:plort_press"
 			id: "605E7F63ACF29D56"
 			min_width: 300
+			rewards: [
+				{
+					id: "6E9072943B68A316"
+					item: "mbd2:slime_breeder"
+					type: "item"
+				}
+				{
+					id: "589C3308399E641D"
+					item: "splendid_slimes:slime_incubator"
+					type: "item"
+				}
+				{
+					id: "200E4AD913A7D5DF"
+					item: "splendid_slimes:plort_rippit"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "7AA1ED39BBD0C2EB"
@@ -546,14 +581,27 @@
 				""
 				"The newly grown &dslime&r will start as a \"wild &dslime&r\" with Neutral happiness"
 			]
+			icon: "splendid_slimes:slime_incubator"
 			id: "56F49C5A7B13623E"
 			min_width: 300
+			rewards: [{
+				id: "71125748BA3F1B9D"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_heart"
+					tag: {
+						slime: {
+							id: "splendid_slimes:tree"
+						}
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "It's aliiiiive!"
 			tasks: [{
-				id: "6AA11F7EC4B8C775"
-				item: "splendid_slimes:slime_incubator"
-				type: "item"
+				id: "6F21C73EDC043EC4"
+				type: "checkmark"
 			}]
 			title: "&fGrowing &eSlime Hearts"
 			x: -4.5d
@@ -578,13 +626,19 @@
 			icon: "numismatics:creative_vendor"
 			id: "2FDFFE3208FF3C16"
 			min_width: 300
+			rewards: [{
+				id: "34C937A0301A594C"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			shape: "hexagon"
+			subtitle: "Shopping!"
 			tasks: [{
 				id: "52D66243AA5C9C74"
 				title: "I LOVE CAPITALISM !!!"
 				type: "checkmark"
 			}]
-			title: "&cShopping&r!"
+			title: "&aSplendid Wares"
 			x: -2.5d
 			y: 4.0d
 		}
@@ -597,20 +651,20 @@
 				""
 				"The &eFusion Breeder&r intakes &dslimes&r in an area behind it to perform fusions, some &dslimes&r may require certain &ecatalyst input items&r using the machines interface"
 				""
-				"Fusion breeding outputs &none single &eslime heart&r, the chances displayed in the recipe guide are weights."
+				"Fusion breeding outputs &none single &eslime heart&r! The chances displayed in the recipe guide are weights"
 				""
 				"The resulting &eslime heart&r could be from an input &eslime&r or if you're lucky, the &eheart&r for an &d&nentirely new slime&r breed!"
 				""
 				"You can view how to fuse specific &dslimes&r by checking recipes for their &eslime item&r or &eslime heart&r using your recipe guide"
 			]
+			icon: "mbd2:slime_breeder"
 			id: "75A4584FAAEC2937"
 			min_width: 350
 			shape: "rsquare"
 			subtitle: "Almost as good as farm merge valley"
 			tasks: [{
-				id: "48B046D35A67870C"
-				item: "mbd2:slime_breeder"
-				type: "item"
+				id: "4245A99826CB46C0"
+				type: "checkmark"
 			}]
 			title: "&dSlime&f Fusion Breeding"
 			x: -4.0d
@@ -679,7 +733,14 @@
 			icon: "numismatics:sun"
 			id: "6352FC5322CFD542"
 			min_width: 350
+			rewards: [{
+				count: 5
+				id: "591872EA475BF1F9"
+				item: "splendid_slimes:slime_candy"
+				type: "item"
+			}]
 			shape: "hexagon"
+			subtitle: "You're not you when you're hungry"
 			tasks: [{
 				id: "44FD8F44041E06A3"
 				title: "Happiness"
@@ -716,6 +777,19 @@
 			icon_scale: 1.2d
 			id: "41CE67FFD8A648DC"
 			min_width: 350
+			rewards: [{
+				id: "610E0D61429AE2B4"
+				item: {
+					Count: 1
+					id: "splendid_slimes:plort"
+					tag: {
+						plort: {
+							id: "splendid_slimes:monster"
+						}
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Not to be confused with fusion"
 			tasks: [{
@@ -731,6 +805,11 @@
 			dependencies: ["605E7F63ACF29D56"]
 			icon: "supplementaries:cog_block"
 			id: "611599F122718E16"
+			rewards: [{
+				id: "6FA65020D9262911"
+				title: "replace me with an akhasic tome"
+				type: "custom"
+			}]
 			shape: "rsquare"
 			subtitle: "This pack has more than slimes??"
 			tasks: [{
@@ -767,6 +846,7 @@
 			id: "0532AC1F6E4E760D"
 			shape: "diamond"
 			size: 1.25d
+			subtitle: "Path of the botanist"
 			tasks: [{
 				id: "129E4003BAD1A743"
 				title: "The nature of the druids suits me"
@@ -782,6 +862,7 @@
 			id: "0DA69A84028E2CD4"
 			shape: "diamond"
 			size: 1.25d
+			subtitle: "Path of the mechanist"
 			tasks: [{
 				id: "7ABC9EB5BCA6C006"
 				title: "The path of mechanical machinations is the way!"
@@ -802,6 +883,7 @@
 			id: "7847FF4866410017"
 			shape: "diamond"
 			size: 1.25d
+			subtitle: "Path of the scientist"
 			tasks: [{
 				id: "109898E1B0AB47CF"
 				title: "I am a computer scientist!"
@@ -833,13 +915,18 @@
 			}
 			id: "40C6C595C39C2067"
 			min_width: 300
+			rewards: [{
+				id: "2EF9BE31ABFA3CC8"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "592DB0227656D80C"
 				title: "Let's go gambling!"
 				type: "checkmark"
 			}]
-			title: "&fThe &ePlort &cMarket"
+			title: "&fThe &cPlort Market"
 			x: -1.5d
 			y: 4.0d
 		}
@@ -863,6 +950,12 @@
 			icon: "splendid_slimes:corral_block"
 			id: "7AA6A101567ED2C6"
 			min_width: 300
+			rewards: [{
+				count: 16
+				id: "7999AEE106A9E844"
+				item: "splendid_slimes:corral_block"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Pondering my specimens"
 			tasks: [{
@@ -879,6 +972,11 @@
 			hide_dependent_lines: true
 			icon: "botania:light_relay"
 			id: "528ED809C83D224D"
+			rewards: [{
+				id: "1B9AFAD84BC7F42A"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Eureka!"
 			tasks: [{
@@ -888,6 +986,17 @@
 			}]
 			title: "&b The Lab"
 			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24EC9B4811458C2E"]
+			id: "015AC5B2CFF2FAAE"
+			tasks: [{
+				id: "248D796BE455F1E0"
+				title: "animals"
+				type: "checkmark"
+			}]
+			x: 2.0d
 			y: 4.0d
 		}
 	]
