@@ -7,6 +7,8 @@ ServerEvents.tags('item', e => {
 
 ServerEvents.tags('block', e => {
     e.add('minecraft:base_stone_overworld', 'architects_palette:myonite')
+    e.add('forge:chorus_additionally_grows_on', 'alexscaves:galena')
+    e.add('forge:end_stones', 'alexscaves:galena')
 })
 
 ServerEvents.tags('worldgen/biome', e => {

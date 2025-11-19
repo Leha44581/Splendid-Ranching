@@ -10,7 +10,7 @@
     "barrier": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:mud"
+        "Name": "minecraft:honey_block"
       }
     }
   }

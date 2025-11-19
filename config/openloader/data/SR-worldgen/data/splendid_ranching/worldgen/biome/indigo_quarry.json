@@ -1,6 +1,6 @@
 {
   "carvers": {
-    "air": [ ]
+    "air": []
   },
   "downfall": 0.0,
   "effects": {
@@ -24,22 +24,29 @@
     "water_fog_color": 329011
   },
   "features": [
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ]
+    [
+      "splendid_ranching:indigo_quarry/indigo_corundum_placed",
+      "splendid_ranching:indigo_quarry/green_corundum_placed",
+      "splendid_ranching:grass_placed",
+      "splendid_ranching:indigo_quarry/flowers_placed",
+      "splendid_ranching:indigo_quarry/beetroots_placed",
+      "splendid_ranching:indigo_quarry/chorus_placed"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
   ],
   "has_precipitation": false,
-  "spawn_costs": { },
+  "spawn_costs": {},
   "spawners": {
-    "ambient": [ ],
-    "axolotls": [ ],
+    "ambient": [],
+    "axolotls": [],
     "creature": [
       {
         "type": "minecraft:chicken",
@@ -54,9 +61,9 @@
         "weight": 8
       }
     ],
-    "misc": [ ],
-    "monster": [ ],
-    "underground_water_creature": [ ],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
     "water_ambient": [
       {
         "type": "minecraft:salmon",
@@ -71,7 +78,7 @@
         "weight": 5
       }
     ],
-    "water_creature": [ ]
+    "water_creature": []
   },
   "temperature": 0.8
 }

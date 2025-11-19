@@ -1,0 +1,34 @@
+{
+  "type": "lithostitched:composite",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:end_stone"
+              }
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": -1
+          }
+        ]
+      },
+      {
+        "feature": {
+          "type": "minecraft:chorus_plant",
+          "config": {}
+        },
+        "placement": []
+      }
+    ]
+  }
+}

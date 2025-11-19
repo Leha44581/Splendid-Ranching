@@ -1,9 +1,9 @@
 {
-  "feature": "splendid_ranching:dry_reef/dry_grass_configured",
+  "feature": "splendid_ranching:indigo_quarry/indigo_corundum_configured",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": 2
+      "type": "minecraft:rarity_filter",
+      "chance": 5
     },
     {
       "type": "minecraft:in_square"
