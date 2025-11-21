@@ -300,7 +300,7 @@ global.slimeDefinitionsData = {
         name: "Forge",
         color: "#705d50",
         particle: {
-            item: "minecraft:lava"
+            item: "minecraft:lava_bucket"
         },
         hat_y_offset: -0.55,
         diet: "diet.splendid_slimes.forge",
