@@ -581,7 +581,7 @@ global.slimeDefinitionsData = {
         particle: {
             item: "architects_palette:rotten_flesh_block"
         },
-        hat_y_offset: -0.55,
+        hat_y_offset: -1,
         diet: "diet.splendid_slimes.monster",
         foods: [{ tag: "forge:raw_meat" }, { tag: "forge:cooked_meat" }],
         favorite_food: {
