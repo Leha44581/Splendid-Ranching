@@ -24,6 +24,9 @@
     "water_fog_color": 2748927
   },
   "features": [
+    [ 
+      "splendid_ranching:slimey_sea/kelp_placed"
+    ],
     [ ],
     [ ],
     [ ],
@@ -32,8 +35,23 @@
     [ ],
     [ ],
     [ ],
-    [ ],
-    [ ]
+    [
+      "minecraft:glow_lichen",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_badlands",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:warm_ocean_vegetation",
+      "minecraft:seagrass_warm",
+      "minecraft:sea_pickle",
+      "minecraft:seagrass_normal",
+      "minecraft:seagrass_simple",
+      "minecraft:kelp_cold",
+      "minecraft:kelp_warm",
+      "splendid_ranching:slimey_sea/kelp_placed"
+    ]
   ],
   "has_precipitation": false,
   "spawn_costs": { },

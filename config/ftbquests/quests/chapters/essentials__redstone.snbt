@@ -703,11 +703,13 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["109898E1B0AB47CF"]
 			description: [
 				"{ \"color\":\"blue\", \"text\": \"Little Logistics Book\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"run_command\", \"value\": \"/open-patchouli-book @s littlelogistics:guide\" } }"
 				""
 				"Little Logistics is a mod for Minecraft Forge focused on efficient, affordable, long-distance transport."
 			]
+			hide_until_deps_complete: true
 			icon: "littlelogistics:steam_locomotive"
 			id: "59C819B383448D7C"
 			rewards: [{

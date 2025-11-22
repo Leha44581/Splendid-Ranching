@@ -817,8 +817,18 @@
 		}
 		{
 			dependencies: ["605E7F63ACF29D56"]
+			description: [
+				"The &9&lSSCCOGAC&r recommends you go beyond &9&lour&r technology and form your own contraptions to assist your on-base operations!"
+				""
+				"We can assist you by providing the &bblueprints&r to mechanical machinery via the &blab&r in exchange for &ccurrency&r"
+				""
+				"Although you can find and create your own devices using resources like redstone found on the &asphere&r"
+				""
+				"There also seems to be... what... is &2this&r?"
+			]
 			icon: "supplementaries:cog_block"
 			id: "611599F122718E16"
+			min_width: 250
 			shape: "rsquare"
 			subtitle: "This pack has more than slimes??"
 			tasks: [{
@@ -832,8 +842,27 @@
 		}
 		{
 			dependencies: ["75A4584FAAEC2937"]
+			description: [
+				"You have completed the &9&lSSCCOGAC&r customary welcoming procedure process! &9^w^"
+				""
+				"You &oshould&r now understand all the concepts of ranching and thriving on this &asphere&r, and can look back at the previous entries of your &l&eHologuide&r™ at any time to recall information"
+				""
+				"Continue to sell &eplorts&r, find and fuse new &dslimes&r, fill out your &eGelapedia&r, and create grand automations for your &dslimes&r"
+				""
+				"&l&9We&r wish our partnership and your ranch the &6greatest&r of productivity"
+				""
+				"May your &eplorts&r be many and your tarrs be few!"
+				""
+				"A slice of cake is being delivered to award your excellence at reading comprehension &9^o^"
+			]
 			icon: "farmersdelight:cake_slice"
 			id: "001EDDF575B9A323"
+			min_width: 300
+			rewards: [{
+				id: "5F4C0A573FEADDDB"
+				item: "farmersdelight:cake_slice"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1B51D0724E851D91"
@@ -845,12 +874,17 @@
 					type: "item"
 				}
 			]
-			title: "Tutorial Complete"
+			title: "&6Congratulations &5Rancher&r!"
 			x: -4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["611599F122718E16"]
+			description: [
+				"What is this? We do not recall this page being here..."
+				""
+				"Whatever it is, we would not recommend touching technology we do not understand &9^o^"
+			]
 			icon: {
 				Count: 1
 				id: "botania:twig_wand"
@@ -862,10 +896,10 @@
 			id: "0532AC1F6E4E760D"
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Path of the botanist"
+			subtitle: "Path of the Botanist"
 			tasks: [{
 				id: "129E4003BAD1A743"
-				title: "The nature of the druids suits me"
+				title: "The nature of the druids calls to me"
 				type: "checkmark"
 			}]
 			title: "Elven Magics"
@@ -874,11 +908,12 @@
 		}
 		{
 			dependencies: ["611599F122718E16"]
+			description: ["With rotational power, much is achievable! The &9&lSSCCOGAC&r provides &bblueprints&r in the &blab&r for our designs on mechanical devices"]
 			icon: "create:wrench"
 			id: "0DA69A84028E2CD4"
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Path of the mechanist"
+			subtitle: "Path of the Mechanist"
 			tasks: [{
 				id: "7ABC9EB5BCA6C006"
 				title: "The path of mechanical machinations is the way!"
@@ -890,6 +925,7 @@
 		}
 		{
 			dependencies: ["611599F122718E16"]
+			description: ["Redstone, rails, computers and more! The purist route, preferring more vanilla esque methods and or computer scripts"]
 			icon: {
 				Count: 1
 				id: "essentials:circuit_wrench"
@@ -899,7 +935,7 @@
 			id: "7847FF4866410017"
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Path of the scientist"
+			subtitle: "Path of the Scientist"
 			tasks: [{
 				id: "109898E1B0AB47CF"
 				title: "I am a computer scientist!"
@@ -985,9 +1021,19 @@
 		}
 		{
 			dependencies: ["611599F122718E16"]
+			description: [
+				"The &blab&r is the &l&9SSCCOGAC&r's method of lending knowledge from &9&lour&r databases"
+				""
+				"By purchasing &bblueprints&r from the lab you can learn how to create new machines and gadgets that could assist you in your ranching, such as mechanical devices!"
+				""
+				"And... it seems something &2else&r has appeared? We are unsure of the &2origins&r, it is up to you to investigate further &9>w<&r"
+				""
+				"[ Fulfilling a lab research quest will grant your team the ability to use the crafting table recipe for the researches related craft outputs ]"
+			]
 			hide_dependent_lines: true
 			icon: "botania:light_relay"
 			id: "528ED809C83D224D"
+			min_width: 250
 			rewards: [{
 				id: "1B9AFAD84BC7F42A"
 				item: "numismatics:bevel"
@@ -1006,14 +1052,88 @@
 		}
 		{
 			dependencies: ["24EC9B4811458C2E"]
+			description: [
+				"Not only is there &dslimes&r on the &asphere&r, you can find some common animals you'd find back home! (As far as &9&lwe&r know haha &9^v^&r)"
+				""
+				"There's a great chance the &dslimes&r here have evolved to eat some of these animals and even prefer certain ones from their &aenvironments&r."
+				""
+				"You are advised to collect and cultivate these animals to ensure your &dslimes&r are fed and kept producing &eplorts&r"
+			]
+			icon: "minecraft:chicken"
 			id: "015AC5B2CFF2FAAE"
+			min_width: 300
 			tasks: [{
 				id: "248D796BE455F1E0"
-				title: "animals"
+				title: "I bet they're tasty"
 				type: "checkmark"
 			}]
+			title: "Farming Animals"
 			x: 2.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["540EA146149A0210"]
+			description: [
+				"You have been sent to an &aisland&r on the &asphere&r with optimal conditions for your ranching!"
+				""
+				"This &aisland&r is seemingly comprised of 5 &abiomes&r surrounded by sea, but anything could be below as our ranged scans do not reach the &aspheres&r depths!"
+				""
+				"Each of the &aspheres&r &abiomes&r has it's own unique &dslimes&r, animals and &efoods&r to be found for your cultivating needs!"
+				""
+				"And remember to explore below! There could be new &dslimes&r to be found &9^o^"
+			]
+			icon: {
+				Count: 1
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+			id: "09A7725D7F449A70"
+			min_width: 250
+			rewards: [{
+				id: "7889EA4924A17377"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67C73A64D80DDF09"
+				title: "Time to explore"
+				type: "checkmark"
+			}]
+			title: "&aHabitats&f of the &aSphere"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"52920F4617FAEE25"
+				"112484FF0BE3AF63"
+				"190A191644CF15F9"
+				"55CDCD7FE68DA743"
+				"436E38D04AA33B83"
+				"001EDDF575B9A323"
+			]
+			description: ["view deps"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/sprites/icon/checkmark.png"
+				}
+			}
+			id: "7E3762303FE74E8F"
+			shape: "heart"
+			tasks: [{
+				id: "6B82E856A3E0D1D5"
+				type: "checkmark"
+			}]
+			title: "Completion lol"
+			x: -4.0d
+			y: -4.0d
 		}
 	]
 	title: "&d Ranching &r✔"

@@ -20,11 +20,9 @@
 			y: 2.0d
 		}
 		{
+			click: "https://www.curseforge.com/minecraft/modpacks/splendid-ranching"
 			height: 1.0d
-			hover: [
-				"Curseforge Page"
-				"(none yet)"
-			]
+			hover: ["Curseforge Page"]
 			image: "supplementaries:textures/gui/book/icon/curseforge.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -55,12 +53,14 @@
 				"&n&lContributors&r&r"
 				""
 				"&9Jamiscus &7-&r Modpacks custom assets for slimes, machines and more"
+				"&bUni &7-&r Help with worldgen, biome placements, and world \"shape\""
+				"&5Vnator &7-&r Assistance with data entry, general feedback"
+				"&bCyb0124&r &7-&r fixing a Multiblocked2 bug and helping with scripts"
 				""
 				"&l&nSpecial Mentions&r&r"
 				""
 				"&aJust Enough Opinions Podcast&r &7-&r Hosting the biology themed Modpack jam"
 				"&bChakyl/Society modpacks&r &7-&r some economy related code and referencing"
-				"&bCyb0124&r &7-&r fixing a Multiblocked2 bug and helping with scripts"
 				"&bKilabash&r &7-&r Multiblocked2"
 				"&bUni and Stardust Labs&r &7-&r help with world generation"
 				"&bCC:Tweaked Team &7-&r computercraft from modrinth"
@@ -75,14 +75,30 @@
 			}
 			id: "337CE0700D88BE3D"
 			min_width: 400
+			rewards: [{
+				id: "44D0FCBBF6D63E7D"
+				item: "fluffy_fur:niko_plush"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Thank you ♥"
+			tasks: [{
+				id: "2F7E4F6C74069170"
+				title: "Thank you for ranching the slimes"
+				type: "checkmark"
+			}]
 			title: "Splendid Ranching Credits"
 			x: -1.0d
 			y: -0.5d
 		}
 		{
-			description: ["The initial release of splendid ranching!"]
+			description: [
+				"The initial alpha release of splendid ranching!"
+				""
+				"Made for JEO Packjam #1, theme: Biology"
+				""
+				"Yes, the pack is unfinished. Lol"
+			]
 			disable_toast: true
 			icon: {
 				Count: 1
@@ -96,6 +112,13 @@
 			id: "24E863D73CB9070F"
 			shape: "gear"
 			subtitle: "Splendid Ranching Alpha!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "39464D40DC334A06"
+				secret: true
+				type: "dimension"
+			}]
 			title: "Version 0.1.0"
 			x: -1.0d
 			y: -2.0d

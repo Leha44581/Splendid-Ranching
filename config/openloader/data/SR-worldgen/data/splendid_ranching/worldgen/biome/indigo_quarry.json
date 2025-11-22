@@ -1,6 +1,6 @@
 {
   "carvers": {
-    "air": []
+    "air": [ ]
   },
   "downfall": 0.0,
   "effects": {
@@ -30,21 +30,28 @@
       "splendid_ranching:indigo_quarry/vegitation_placed",
       "splendid_ranching:indigo_quarry/mushroom_placed"
     ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
+    [ ],
+    [ ],
+    [ ],
+    [ ],
+    [ ],
+    [ ],
+    [ ],
+    [ ],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:mushroom_island_vegetation",
+      "minecraft:brown_mushroom_taiga",
+      "minecraft:red_mushroom_taiga",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin"
+    ]
   ],
   "has_precipitation": false,
-  "spawn_costs": {},
+  "spawn_costs": { },
   "spawners": {
-    "ambient": [],
-    "axolotls": [],
+    "ambient": [ ],
+    "axolotls": [ ],
     "creature": [
       {
         "type": "minecraft:chicken",
@@ -59,9 +66,9 @@
         "weight": 8
       }
     ],
-    "misc": [],
-    "monster": [],
-    "underground_water_creature": [],
+    "misc": [ ],
+    "monster": [ ],
+    "underground_water_creature": [ ],
     "water_ambient": [
       {
         "type": "minecraft:salmon",
@@ -76,7 +83,7 @@
         "weight": 5
       }
     ],
-    "water_creature": []
+    "water_creature": [ ]
   },
   "temperature": 0.8
 }

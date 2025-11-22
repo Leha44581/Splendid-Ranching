@@ -153,12 +153,12 @@ const rippitOutputs = {
         { item: 'minecraft:iron_ingot', count: 6, weight: 10 }
     ],
     tree: [
-        { item: 'minecraft:oak_log', count: 8, weight: 20 },
-        { item: 'minecraft:spruce_log', count: 8, weight: 20 },
-        { item: 'minecraft:birch_log', count: 8, weight: 15 },
-        { item: 'minecraft:jungle_log', count: 8, weight: 15 },
-        { item: 'minecraft:acacia_log', count: 8, weight: 15 },
-        { item: 'minecraft:dark_oak_log', count: 8, weight: 15 }
+        { item: 'minecraft:oak_sapling', count: 8, weight: 20 },
+        { item: 'minecraft:spruce_sapling', count: 8, weight: 20 },
+        { item: 'minecraft:birch_sapling', count: 8, weight: 15 },
+        { item: 'minecraft:jungle_sapling', count: 8, weight: 15 },
+        { item: 'minecraft:acacia_sapling', count: 8, weight: 15 },
+        { item: 'minecraft:dark_oak_sapling', count: 8, weight: 15 }
     ],
     phantom: [
         { item: 'minecraft:phantom_membrane', count: 4, weight: 60 },
