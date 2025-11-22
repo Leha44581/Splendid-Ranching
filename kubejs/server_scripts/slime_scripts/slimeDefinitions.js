@@ -477,7 +477,7 @@ global.slimeDefinitionsData = {
         particle: {
             item: "minecraft:moss_block"
         },
-        hat_y_offset: -0.55,
+        hat_y_offset: -0.5,
         diet: "diet.splendid_slimes.lush",
         foods: [{ tag: "forge:seeds" }, { item: "minecraft:bone_meal" }, { item: "quark:moss_paste" }],
         favorite_food: {
