@@ -55,12 +55,14 @@
 				"&n&lContributors&r&r"
 				""
 				"&9Jamiscus &7-&r Modpacks custom assets for slimes, machines and more"
+				"&bUni &7-&r Help with worldgen, biome placements, and world \"shape\""
+				"&5Vnator &7-&r Assistance with data entry, general feedback"
+				"&bCyb0124&r &7-&r fixing a Multiblocked2 bug and helping with scripts"
 				""
 				"&l&nSpecial Mentions&r&r"
 				""
 				"&aJust Enough Opinions Podcast&r &7-&r Hosting the biology themed Modpack jam"
 				"&bChakyl/Society modpacks&r &7-&r some economy related code and referencing"
-				"&bCyb0124&r &7-&r fixing a Multiblocked2 bug and helping with scripts"
 				"&bKilabash&r &7-&r Multiblocked2"
 				"&bUni and Stardust Labs&r &7-&r help with world generation"
 				"&bCC:Tweaked Team &7-&r computercraft from modrinth"
@@ -82,7 +84,11 @@
 			y: -0.5d
 		}
 		{
-			description: ["The initial release of splendid ranching!"]
+			description: [
+				"The initial alpha release of splendid ranching!"
+				""
+				"Made for JEO Packjam #1, theme: Biology"
+			]
 			disable_toast: true
 			icon: {
 				Count: 1
