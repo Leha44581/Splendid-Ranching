@@ -1,8 +1,8 @@
 {
-    "name": "packjampack",
+    "name": "Splendid Ranching",
     "version": "0.1.1",
-    "description": "A template pack",
-    "author": "Deepacat, Meeprdib, Vnator",
+    "description": "Slime rancher inspired modpack for the JEO Modpack Jam",
+    "author": "Deepacat, Meeprdib, Vnator, Uni",
     "overrides": [
         "config",
         "defaultconfigs",
