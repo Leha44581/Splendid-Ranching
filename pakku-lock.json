@@ -934,46 +934,6 @@
             ]
         },
         {
-            "pakku_id": "KaR5NeuxitXwGaNO",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "cloudflared"
-            },
-            "name": {
-                "curseforge": "Cloudflared"
-            },
-            "id": {
-                "curseforge": "1005516"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Cloudflared-19.2.1-forge.jar",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.1",
-                        "1.20",
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5273/798/Cloudflared-19.2.1-forge.jar",
-                    "id": "5273798",
-                    "parent_id": "1005516",
-                    "hashes": {
-                        "sha1": "91e6bfe3a3a5bf8eda32f99c2f8a4673d05c5ed9",
-                        "md5": "7c5add8bed42ea6c53e420e1b91a504d"
-                    },
-                    "required_dependencies": [],
-                    "size": 338314,
-                    "date_published": "2024-04-19T06:18:56.747Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "AOLaZclDTVOb9eNL",
             "type": "MOD",
             "slug": {
