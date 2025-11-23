@@ -33,7 +33,6 @@ jobs:
       make_pr: ${{ steps.check.outputs.make_pr }}
       pakku-lock_changed: ${{ steps.filter.outputs.pakku-lock }}
       kubejs_changed: ${{ steps.filter.outputs.kubejs }}
-      webhook_present: ${{ steps.webhook.outputs.present }}
 
     steps:
       - name: Checkout
@@ -300,7 +299,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_branch: dev
           target_branch: main
-          #milestone: ${{ steps.changelog.outputs.version }} # Change this! (if you plan on using milestones)
           ignore_users: "dependabot"
           draft: true
           title: "Release: ${{ steps.changelog.outputs.version }}"
@@ -368,7 +366,7 @@ jobs:
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
             git add .pakku/prism-overrides/mmc-pack.json
-            git commit -m "Updated mmc-pack.json to Minecraft ${{ needs.info.outputs.mc_version }} on ${{ needs.info.outputs.loader_type }} ${{ needs.info.outputs.loader_version }}"
+            git commit -m "ci: Updated mmc-pack.json to Minecraft ${{ needs.info.outputs.mc_version }} on ${{ needs.info.outputs.loader_type }} ${{ needs.info.outputs.loader_version }}"
             git push
           fi
 
@@ -431,7 +429,7 @@ jobs:
       - name: Preparing the server artifact
         run: |
           cd ./build/serverpack/
-          mv *.zip "$(basename -s .zip *.zip)-serverpack.zip"
+          mv *.zip $(basename -s .zip *.zip)-serverpack.zip
 
       - name: Upload server artifact
         uses: actions/upload-artifact@v4.6.2
@@ -470,6 +468,9 @@ jobs:
           if [ ! -f ${{ needs.info.outputs.project_file_name }}-serverpack.zip ]; then
             echo '::error::No value found for artifact `serverpack.zip`.' && exit 1
           fi
+          # if [ ! -f ${{ needs.info.outputs.project_file_name }}-multimc.zip ]; then
+          #   echo '::error::No value found for artifact `multimc.zip`.' && exit 1
+          # fi
           echo "All artifacts found"
 
       - name: Format diff
