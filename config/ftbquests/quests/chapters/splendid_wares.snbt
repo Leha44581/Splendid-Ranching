@@ -179,6 +179,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
+			subtitle: "&8[&7 Does not feed slimes &8]"
 			tasks: [{
 				consume_items: true
 				disable_toast: true
@@ -1054,7 +1055,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			subtitle: "&fCan be made into a magnet!"
+			subtitle: "&8[&7 Can be made into a magnet! &8]"
 			tasks: [{
 				consume_items: true
 				disable_toast: true
@@ -1903,6 +1904,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
+			subtitle: "&8[&7 Disrupts slime spawning &8]"
 			tasks: [{
 				consume_items: true
 				count: 4L
