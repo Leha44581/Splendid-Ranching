@@ -14,7 +14,7 @@ PlayerEvents.inventoryChanged(e => {
 
 PlayerEvents.tick(e => {
     if (Utils.server.tickCount % 20 != 0) { return }
-    
+
     let invCount = e.player.inventory.count('splendid_slimes:slime_item')
     if (e.player.inventory.count('splendid_slimes:slime_item') > 4 ) {
         e.player.potionEffects.add("slowness", 25, (invCount) - 2, false, false)

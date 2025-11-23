@@ -161,7 +161,7 @@ global.baseSlimeValueData = {
         maxVolume: 240,
         slimeDupeCost: 16
     },
-    //t1
+    // t1
     bony: {
         baseValue: 15,
         currentValue: 15,
@@ -258,7 +258,7 @@ global.baseSlimeValueData = {
         maxVolume: 250,
         slimeDupeCost: 16
     },
-    //t2
+    // t2
     ender: {
         baseValue: 20,
         currentValue: 20,
@@ -355,7 +355,7 @@ global.baseSlimeValueData = {
         maxVolume: 250,
         slimeDupeCost: 32
     },
-    //t3
+    // t3
     shulking: {
         baseValue: 30,
         currentValue: 40,
@@ -420,7 +420,7 @@ global.baseSlimeValueData = {
         maxVolume: 150,
         slimeDupeCost: 48
     },
-    //t4
+    // t4
     gold: {
         baseValue: 40,
         currentValue: 50,
@@ -471,4 +471,3 @@ global.baseSlimeValueData = {
     },
 
 }
-

@@ -65,7 +65,7 @@ function marketUpdates(e) {
         // Apply bonus if plortType is in the daily bonus array
         let bonusMultiplier = 1
         if (hotDemands && hotDemands.includes(plortType)) {
-            // random between 2 and 4 times multiplier for daily bonus 
+            // random between 2 and 4 times multiplier for daily bonus
             bonusMultiplier *= Math.random() * 2 + 2
         }
 
@@ -77,7 +77,7 @@ function marketUpdates(e) {
             volumeModifier *
             bonusMultiplier
 
-        // // Ensure price stays within bounds 
+        // // Ensure price stays within bounds
         // // * Disabling this is actually way more fun and cooler, hell yea I want up to +460% value
         // newPrice = Math.max(plortData.priceRange[0], Math.min(plortData.priceRange[1], newPrice))
 
@@ -108,4 +108,3 @@ function marketUpdates(e) {
         player.sendData('kubejs:slime_value_data', e.server.persistentData['slime_value_data'])
     }
 }
-

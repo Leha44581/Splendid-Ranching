@@ -1,5 +1,5 @@
 const rippitOutputs = {
-    // t0 
+    // t0
     slimy: [
         { item: "minecraft:slime_ball", count: 6, weight: 1 },
         { item: "minecraft:slime_ball", count: 4, weight: 1 },
@@ -272,7 +272,7 @@ const rippitOutputs = {
         { item: 'alexscaves:sweet_tooth', count: 1, weight: 50 },
         { item: 'alexscaves:radiant_essence', count: 1, weight: 50 }
     ],
-    
+
     // t4
     gold: [
         { item: 'minecraft:gold_ingot', count: 32, weight: 69 },
@@ -296,7 +296,7 @@ const rippitOutputs = {
         { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:fortune",lvl:3s}]}'), count: 1, weight: 10 },
         { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:power",lvl:5s}]}'), count: 1, weight: 10 }
     ],
-    
+
     // t5
     quantum: [
         { item: 'minecraft:dragon_egg', count: 1, weight: 10 },
@@ -307,7 +307,7 @@ const rippitOutputs = {
         { item: 'alexscaves:charred_remnant', count: 4, weight: 30 },
         { item: 'alexscaves:unrefined_waste', count: 8, weight: 50 }
     ],
-    
+
     // other
     burger: [
         { item: 'numismatics:spur', count: 16, weight: 35 },

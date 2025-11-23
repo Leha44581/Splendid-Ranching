@@ -934,46 +934,6 @@
             ]
         },
         {
-            "pakku_id": "KaR5NeuxitXwGaNO",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "cloudflared"
-            },
-            "name": {
-                "curseforge": "Cloudflared"
-            },
-            "id": {
-                "curseforge": "1005516"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Cloudflared-19.2.1-forge.jar",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.1",
-                        "1.20",
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5273/798/Cloudflared-19.2.1-forge.jar",
-                    "id": "5273798",
-                    "parent_id": "1005516",
-                    "hashes": {
-                        "sha1": "91e6bfe3a3a5bf8eda32f99c2f8a4673d05c5ed9",
-                        "md5": "7c5add8bed42ea6c53e420e1b91a504d"
-                    },
-                    "required_dependencies": [],
-                    "size": 338314,
-                    "date_published": "2024-04-19T06:18:56.747Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "AOLaZclDTVOb9eNL",
             "type": "MOD",
             "slug": {
@@ -2037,6 +1997,51 @@
                     ],
                     "size": 94684,
                     "date_published": "2025-09-07T12:29:22.480Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "aQwjb3QdZU195hmp",
+            "pakku_links": [
+                "U7qkldBi2jmGL2y2"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "defaultsettings"
+            },
+            "name": {
+                "curseforge": "DefaultSettings"
+            },
+            "id": {
+                "curseforge": "318012"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "DefaultSettings-1.20.x-4.0.7-Forge.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5141/86/DefaultSettings-1.20.x-4.0.7-Forge.jar",
+                    "id": "5141086",
+                    "parent_id": "318012",
+                    "hashes": {
+                        "sha1": "787645dd7602ca80face4180d6a3826f8e057a54",
+                        "md5": "3723212a3657e6d011b9e789218277c2"
+                    },
+                    "required_dependencies": [
+                        "659192"
+                    ],
+                    "size": 95942,
+                    "date_published": "2024-02-27T18:09:34.043Z"
                 }
             ]
         },
@@ -3448,6 +3453,48 @@
                     "required_dependencies": [],
                     "size": 20832,
                     "date_published": "2024-11-14T20:26:52.180Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "U7qkldBi2jmGL2y2",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "jcplugin"
+            },
+            "name": {
+                "curseforge": "JCPlugin"
+            },
+            "id": {
+                "curseforge": "659192"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "JCPlugin-1.17.x-1.20.x-4.0.4-Forge.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.6",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4573/148/JCPlugin-1.17.x-1.20.x-4.0.4-Forge.jar",
+                    "id": "4573148",
+                    "parent_id": "659192",
+                    "hashes": {
+                        "sha1": "9fd902aa2fd1e42fcb04fed1cfe7f6bf1a2e4bea",
+                        "md5": "c8dfbd31a94af19337e3fe288eb5d6d0"
+                    },
+                    "required_dependencies": [],
+                    "size": 33999,
+                    "date_published": "2023-06-08T06:58:55.010Z"
                 }
             ]
         },

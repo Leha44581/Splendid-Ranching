@@ -3,7 +3,7 @@
 // base slimes from splendid slimes that are disabled in this modpack
 global.disabledSlimes = ["webby"]
 
-// The main slime definitions file, 
+// The main slime definitions file,
 // all slimes entries here will be generated
 global.slimeDefinitionsData = {
     abyssal: {

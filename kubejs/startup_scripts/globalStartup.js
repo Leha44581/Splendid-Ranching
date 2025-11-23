@@ -75,26 +75,26 @@ const roundPrice = (price) => {
 global.calculateCoinValue = (coin) => {
     let value = 0;
     switch (coin.id.split(":")[1]) {
-        case "spur":
-            value = 1
-            break
-        case "bevel":
-            value = 8
-            break
-        case "sprocket":
-            value = 16
-            break
-        case "cog":
-            value = 64
-            break
-        case "crown":
-            value = 512
-            break
-        case "sun":
-            value = 4096
-            break
-        default:
-            console.log(`Invalid coin`)
+    case "spur":
+        value = 1
+        break
+    case "bevel":
+        value = 8
+        break
+    case "sprocket":
+        value = 16
+        break
+    case "cog":
+        value = 64
+        break
+    case "crown":
+        value = 512
+        break
+    case "sun":
+        value = 4096
+        break
+    default:
+        console.log(`Invalid coin`)
     }
     return value * coin.count
 };

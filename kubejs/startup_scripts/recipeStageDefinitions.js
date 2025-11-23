@@ -5,7 +5,7 @@
 global.recipeStages = {
     // PLEEEEEEEEEASE DON'T MAKE DUPLICATE ITEMS IN STAGES THANK YOU.
 
-    //crate
+    // crate
     "create_basic": {
         "name": "Basic Mechanical Components",
         "ingredients": ["create:cogwheel", "create:large_cogwheel", "create:shaft", "create:gearbox", "create:vertical_gearbox", "create:encased_chain_drive"]

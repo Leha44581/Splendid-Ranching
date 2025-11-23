@@ -8,7 +8,7 @@ const slimeRecipes = {
         // output slime hearts (Required > 0, required weight, max 4, last item is the primary output slime)
         heartOut: [{ count: 1, id: 'bony', weight: 6 }, { count: 1, id: 'rotting', weight: 7 }, { count: 1, id: 'all_seeing', weight: 2 }]
     },
-    // t1 fusion slimes - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    // t1 fusion slimes - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     monster_dusty_to_bony: {
         entityIn: [{ count: 1, id: 'monster' }, { count: 1, id: 'dusty' }],
         heartOut: [
@@ -105,7 +105,7 @@ const slimeRecipes = {
             { count: 1, id: 'phantom', weight: 80 }
         ]
     },
-    // t2 fusion slimes - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    // t2 fusion slimes - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     blazing_alien_crystal_to_ender: {
         entityIn: [
             { count: 1, id: 'blazing' },
@@ -250,7 +250,7 @@ const slimeRecipes = {
             { count: 1, id: 'magnetic', weight: 80 }
         ]
     },
-    // t3 fusion slimes - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    // t3 fusion slimes - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     ender_monster_weeping_to_shulking: {
         entityIn: [
             { count: 1, id: 'ender' },
@@ -353,7 +353,7 @@ const slimeRecipes = {
             { count: 1, id: 'radiant', weight: 80 }
         ]
     },
-    // t4 fusion slimes - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    // t4 fusion slimes - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     luminous_metallic_to_gold: {
         entityIn: [
             { count: 1, id: 'luminous' },
@@ -391,7 +391,7 @@ const slimeRecipes = {
             { count: 1, id: 'time', weight: 70 }
         ]
     },
-    // t5 fusion slimes - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    // t5 fusion slimes - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     time_dark_magnetic_to_quantum: {
         entityIn: [
             { count: 1, id: 'time' },
@@ -418,7 +418,7 @@ const slimeRecipes = {
             { count: 1, id: 'nuclear', weight: 70 }
         ]
     },
-    // other - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    // other - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     nuclear_quantum_to_burger: {
         entityIn: [
             { count: 1, id: 'nuclear' },
@@ -562,7 +562,7 @@ MBDMachineEvents.onBeforeRecipeWorking('mbd2:slime_breeder', event => {
     const { machine, recipe } = mbdEvent
 
     // get storage trait for output slot and cancel recipe running if it the slot isn't empty
-    // if this isn't cancelled, it'll reroll output chance until it'll output whatever is already in the slot 
+    // if this isn't cancelled, it'll reroll output chance until it'll output whatever is already in the slot
     let itemTrait = machine.getTraitByName("item_output_slot")
     /** @type {ItemStackTransfer.prototype} */
     let storage = itemTrait.storage

@@ -1,4 +1,4 @@
-// first server load 
+// first server load
 ServerEvents.loaded(e => {
     let started = e.server.persistentData['started']
     if (started == undefined || !started) {
