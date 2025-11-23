@@ -2078,6 +2078,47 @@
             ]
         },
         {
+            "pakku_id": "EE8v5RxmiYmFGZZo",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "difficulty-lock"
+            },
+            "name": {
+                "curseforge": "Difficulty Lock"
+            },
+            "id": {
+                "curseforge": "390886"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "difficultylock-1.20.1-4.7.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6186/182/difficultylock-1.20.1-4.7.jar",
+                    "id": "6186182",
+                    "parent_id": "390886",
+                    "hashes": {
+                        "sha1": "99bf8e0f4dce30384d9aa2094a750f7aadb548c3",
+                        "md5": "860c2bb5ba89137e35f8f7537c32d3ae"
+                    },
+                    "required_dependencies": [
+                        "342584"
+                    ],
+                    "size": 40530,
+                    "date_published": "2025-02-12T17:59:02.023Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "o7fKM0vGj6LUsJEg",
             "type": "MOD",
             "slug": {
