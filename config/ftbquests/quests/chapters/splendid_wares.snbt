@@ -450,7 +450,7 @@
 					consume_items: true
 					disable_toast: true
 					id: "1798B6F9C17E3E66"
-					item: "numismatics:cog"
+					item: "numismatics:crown"
 					match_nbt: false
 					only_from_crafting: false
 					type: "item"
@@ -469,7 +469,7 @@
 					type: "item"
 				}
 			]
-			title: "&f Mining Laser MK2 | &664&a☻"
+			title: "&f Mining Laser MK2 | &6512&a☻"
 			x: -8.5d
 			y: -0.5d
 		}
@@ -508,7 +508,7 @@
 					consume_items: true
 					disable_toast: true
 					id: "328E6D60C7F0A704"
-					item: "numismatics:cog"
+					item: "numismatics:sun"
 					match_nbt: false
 					only_from_crafting: false
 					type: "item"
@@ -527,7 +527,7 @@
 					type: "item"
 				}
 			]
-			title: "&f Mining Laser MK3 | &664&a☻"
+			title: "&f Mining Laser MK3 | &64096&a☻"
 			x: -8.0d
 			y: 0.5d
 		}
@@ -1453,7 +1453,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "&f Animal Feeder | &616&a☻"
+			title: "&f Redstone Relay | &616&a☻"
 			x: -0.5d
 			y: -3.5d
 		}
@@ -1699,7 +1699,6 @@
 			subtitle: "Sharing is caring"
 			tasks: [{
 				consume_items: true
-				count: 2L
 				disable_toast: true
 				id: "404FCED12BC61035"
 				item: "numismatics:cog"
@@ -1922,6 +1921,8 @@
 			can_repeat: true
 			dependencies: ["52D66243AA5C9C74"]
 			description: [
+				"5x4x5 area"
+				""
 				"Lamps redstone activate the corral panes "
 				""
 				"can be toggled with a wrench or redstone signal"
