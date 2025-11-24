@@ -10,7 +10,8 @@
         },
         "conditions": {
             "dimension": "minecraft:overworld",
-            "maxlocal": 50,
+            "mindist": 30,
+            "maxlocal": 30,
             "minheight": 60
         }
     },
@@ -25,7 +26,7 @@
         },
         "conditions": {
             "dimension": "minecraft:overworld",
-            "maxlocal": 25,
+            "maxlocal": 15,
             "minverticaldist": 20,
             "maxheight": 60
         }
