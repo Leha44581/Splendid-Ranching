@@ -152,9 +152,8 @@
 				consume_items: true
 				count: 2L
 				disable_toast: true
-				icon: "numismatics:cog"
 				id: "7B095F39864F16D3"
-				item: "numismatics:cog"
+				item: "numismatics:crown"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
@@ -1892,37 +1891,6 @@
 			can_repeat: true
 			dependencies: ["52D66243AA5C9C74"]
 			disable_toast: true
-			icon: "torchmaster:megatorch"
-			id: "491F289B972D9ED4"
-			rewards: [{
-				auto: "disabled"
-				exclude_from_claim_all: true
-				id: "15381DDB03997907"
-				item: "torchmaster:megatorch"
-				team_reward: false
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.0d
-			subtitle: "&8[&7 Disrupts slime spawning &8]"
-			tasks: [{
-				consume_items: true
-				count: 4L
-				disable_toast: true
-				id: "1A6442129B06827B"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
-				type: "item"
-			}]
-			title: "&f Mega Torch | &6256&a☻"
-			x: -13.0d
-			y: -3.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["52D66243AA5C9C74"]
-			disable_toast: true
 			icon: "torchmaster:dreadlamp"
 			id: "04D437E81D7EAF58"
 			rewards: [{
@@ -1935,6 +1903,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
+			subtitle: "&8[&7 Disrupts slime spawning &8]"
 			tasks: [{
 				consume_items: true
 				count: 4L
@@ -1946,8 +1915,73 @@
 				type: "item"
 			}]
 			title: "&f Dread Lamp | &6256&a☻"
-			x: -12.5d
-			y: -4.5d
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			description: [
+				"Lamps redstone activate the corral panes "
+				""
+				"can be toggled with a wrench or redstone signal"
+			]
+			disable_toast: true
+			icon: "create:empty_schematic"
+			id: "03F366E94FE06EBB"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "5350BF8588D83D2E"
+				item: {
+					Count: 1
+					id: "portable_blueprints:worn_blueprint"
+					tag: {
+						Damage: 1
+						allow_nbt: 1
+						altezza: 0
+						blueprint_name: "basic_corral_template"
+						buildAnyway: 0b
+						display: {
+							Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"text\":\"Blueprint: Basic Corral\"}"
+						}
+						free_build: 1
+						inventari_blocco_selezionati: ""
+						lunghezzaX: 0
+						lunghezzaZ: 0
+						mirrowX: 0b
+						mirrowY: 0b
+						mirrowZ: 0b
+						nome: "basic_corral_template"
+						owner: "worn"
+						owner_name: "Deepacat"
+						remaining_uses: 1
+						rotateValue: 0s
+						skipObstructionBlock: 0b
+						visualizeBuild: 0b
+						wasHolding: 0b
+						worn_set: 1b
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "&8[&7 For those who don't like building &8]"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				disable_toast: true
+				id: "54D2C9A8FA5D3705"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Basic Corral | &6256&a☻"
+			x: -7.0d
+			y: 2.0d
 		}
 	]
 	title: "&a Splendid Wares"
