@@ -32,15 +32,15 @@ servers.dat_old
 hs_err*
 
 # Pakku
-build/
+/build/
 /.pakku/shelf
-!.pakku/
-!pakku.jar
-!pakku.json
-!pakku-lock.json
+/!.pakku/
+/!pakku.jar
+/!pakku.json
+/!pakku-lock.json
 
 # Node.js
-**/node_modules/
+/**/node_modules/
 
 # dotenv
 .env
@@ -58,6 +58,7 @@ build/
 # Client configs (with exceptions below)
 /config/**/*client.*
 
+!/config/defaultsettings/**
 !/config/sophisticatedstorage-client.toml
 !/config/**/darkmodeeverywhere-client.toml
 !/config/create-client.toml
@@ -103,18 +104,18 @@ build/
 
 # Linux
 *~
-.fuse_hidden*
-.directory
-.Trash-*
+/.fuse_hidden*
+/.directory
+/.Trash-*
 
 # Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.lnk
+/Thumbs.db
+/ehthumbs.db
+/Desktop.ini
+/$RECYCLE.BIN/
+/*.lnk
 
 # macOS
-.DS_Store
-.AppleDouble
-.LSOverride
+/.DS_Store
+/.AppleDouble
+/.LSOverride
