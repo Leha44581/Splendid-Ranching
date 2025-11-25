@@ -171,7 +171,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
@@ -381,6 +381,16 @@
 			]
 			x: 2.0d
 			y: 0.5d
+		}
+		{
+			id: "31A310D7CD73F5B4"
+			tasks: [{
+				id: "04263547C676562B"
+				item: "splendid_slimes:rocket_pod"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
 		}
 	]
 	title: "&9 Tools n' Gadgets"
