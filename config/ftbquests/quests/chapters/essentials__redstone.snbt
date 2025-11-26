@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "436E38D04AA33B83"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -408,7 +408,7 @@
 			description: [
 				"{ \"color\":\"blue\", \"text\": \"Supplementaries Wiki\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://github.com/MehVahdJukaar/Supplementaries/wiki\" } }"
 				""
-				"Supplementaries is a mod for Vanilla+ additions, with plenty of decor and functional blocks"
+				"Supplementaries is a mod for Vanilla+ additions, with plenty of decor and functional blocks."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -432,7 +432,7 @@
 			description: [
 				"{ \"color\":\"blue\", \"text\": \"Quark Wiki\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://quarkmod.net/#features\" } }"
 				""
-				"Quark is a mod adding vanilla-like content, including a ton of useful blocks for redstone"
+				"Quark is a mod adding vanilla-like content, including a ton of useful blocks for redstone."
 				""
 				"Note that not everything in the wiki may be enabled in this pack such as mobs, but almost everything redstone related should be!"
 			]
@@ -460,13 +460,13 @@
 				""
 				"More Red is a mod adding plenty of not so vanilla like redstone features, it has:"
 				""
-				"Logic gate redstone circuits, even placeable on walls"
+				"Logic gate redstone circuits, even placeable on walls."
 				""
-				"Redstone wire that can be placed on a walls and connected into bundles for compactness"
+				"Redstone wire that can be placed on a walls and connected into bundles for compactness."
 				""
-				"Connectors that can link redstone cables between 2 points"
+				"Connectors that can link redstone cables between 2 points."
 				""
-				"A... jumbo furnace? Thanks dependencies"
+				"A... jumbo furnace? Thanks dependencies."
 				""
 				"And more (See wiki)"
 			]
@@ -493,9 +493,9 @@
 			description: [
 				"{ \"color\":\"blue\", \"text\": \"Essentials Book\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"run_command\", \"value\": \"/open-patchouli-book @s essentials:manual\" } }"
 				""
-				"Essentials is a mod aiming to expand automation potential of vanilla redstone"
+				"Essentials is a mod aiming to expand automation potential of vanilla redstone."
 				""
-				"It adds new logistics tools, redstone circuits and more utilities"
+				"It adds new logistics tools, redstone circuits and more utilities."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -611,11 +611,11 @@
 			description: [
 				"{ \"color\":\"blue\", \"text\": \"CC:Tweaked Documentation\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://tweaked.cc/\" } }"
 				""
-				"CC: Tweaked is a mod for Minecraft which adds programmable computers, robot like \"turtles\" and more to the game."
+				"CC: Tweaked is a mod for Minecraft which adds programmable &ecomputers&r, robot like \"&eturtles&r\" and more to the game."
 				""
 				"This questbook will not explain the usage of the mod as it gets quite deep, but the documentation is linked for those wanting to learn or recall usage."
 				""
-				"Advanced Peripherals \\& Turtlematic have been provided as addons to extend automation capabilities of Computer Craft"
+				"Advanced Peripherals \\& Turtlematic have been provided as addons to extend automation capabilities of Computer Craft."
 			]
 			hide_until_deps_complete: true
 			icon: "computercraft:computer_normal"
@@ -657,9 +657,9 @@
 				""
 				"{ \"color\":\"blue\", \"text\": \"Advanced Peripherals Book\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"run_command\", \"value\": \"/open-patchouli-book @s advancedperipherals:manual\" } }"
 				""
-				"Advanced Peripherals is an addon focused on in world interactions with computers, adding a lot of scanning related peripherals letting you view more information about blocks"
+				"Advanced Peripherals is an addon focused on in world interactions with &ecomputers&r, adding a lot of scanning related peripherals letting you view more information about blocks"
 				""
-				"But it also adds some unique toys like portable pocket computers, or augmented reality glasses for custom interfaces"
+				"But it also adds some unique toys like &eportable pocket computers&r, or &eaugmented reality glasses&r for custom interfaces"
 			]
 			icon: "advancedperipherals:peripheral_casing"
 			id: "466D9A044F47769C"
@@ -688,9 +688,9 @@
 			description: [
 				"{ \"color\":\"blue\", \"text\": \"Turtlematic Documentation\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://docs.siredvin.site/Turtlematic/\" } }"
 				""
-				"Turtlematic is an addon expanding turtles and their usefulness"
+				"Turtlematic is an addon expanding &eturtles&r and their usefulness"
 				""
-				"It gives turtles a ton more interactivity with special attachable cores allowing them new abilities like experience collection, soft crop harvesting, mob collecting, and more"
+				"It gives &eturtles&r a ton more interactivity with special attachable &ecores&r allowing them new abilities like experience collection, soft crop harvesting, mob collecting, and more"
 			]
 			icon: "turtlematic:automata_core"
 			id: "4AE1BA93ACA5DE7A"

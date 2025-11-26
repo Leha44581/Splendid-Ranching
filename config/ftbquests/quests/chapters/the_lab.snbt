@@ -109,7 +109,7 @@
 		}
 		{
 			dependencies: ["528ED809C83D224D"]
-			description: ["\" It seems so that here on Gelatine-XB47, the barrier to... something? &oSomewhere...&r is weak. Blueprints of foreign concepts are being sent to the Hologuide's lab page.. I wonder what they could be for. Although they don't seem to care for the Glubcoins currency for their designs like the SSCCOGAC does, just a variety of plorts.\""]
+			description: ["\" It seems so that here on &aGelatine-XB47&r, the barrier to... something? &oSomewhere...&r is weak. &bBlueprints&r of &2foreign concepts&r are being sent to the &e&lHologuide&r&r's lab page.. I wonder what they could be for. Although they don't seem to care for the &cGlubcoins currency&r for &2their&r designs like the &l&9SSCCOGAC&r&r does, just a variety of &eplorts.\"&r"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "botania:pure_daisy"

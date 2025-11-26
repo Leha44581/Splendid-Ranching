@@ -6,7 +6,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "quark:abacus"
 	id: "55CDCD7FE68DA743"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -104,13 +104,13 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -4.5d
+			x: -1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
 			description: [
-				"Holding a Candy Cane Hook in your hand and pressing right-click will shoot out a hook, it will stick to most surfaces it hits."
+				"Holding a &eCandy Cane Hook&r in your hand and pressing right-click will shoot out a hook, it will stick to most surfaces it hits."
 				"Pressing right-click again will launch you in it's direction."
 			]
 			id: "005DDB059E76C369"
@@ -238,10 +238,10 @@
 		{
 			dependencies: ["641BB69F5A27AABE"]
 			description: [
-				"Magnetic Levitation Rails can be used to create Minecart tracks. "
-				"Similarly to Powered Rails, they cannot curve, but unlike Powered Rails, they don't require Redstone power, and can propel Minecarts even faster."
+				"&eMagnetic Levitation Rails&r can be used to create Minecart tracks. "
+				"Similarly to &ePowered Rails&r, they cannot curve, but unlike &ePowered Rails&r, they don't require Redstone power, and can propel Minecarts even faster."
 				""
-				"Minecarts will levitate above Magnetic Levitation Rails, even when they are not moving."
+				"&eMinecarts&r will levitate above &eMagnetic Levitation Rails&r, even when they are not moving."
 			]
 			id: "3E9CF40B0F1D49DC"
 			tasks: [{
@@ -275,38 +275,12 @@
 				}
 				type: "item"
 			}]
-<<<<<<< HEAD
 			x: 0.0d
 			y: -5.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
-			id: "38C5606D339FB8A5"
-			tasks: [{
-				id: "58741B9D39578DB5"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Open: 0b
-							SelectedSlot: 0b
-							Size: 6
-						}
-					}
-					id: "supplementaries:lunch_basket"
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -0.5d
-=======
-			x: -1.0d
-			y: -3.5d
->>>>>>> 7270275 (added some quests for little logistics, other minor changes)
-		}
-		{
 			dependencies: ["53EBD9587E86A7B9"]
+			description: [""]
 			hide_until_deps_complete: true
 			id: "641BB69F5A27AABE"
 			tasks: [{
@@ -434,6 +408,7 @@
 					type: "item"
 				}
 			]
+			title: "Building Wands"
 			x: 2.0d
 			y: 0.5d
 		}

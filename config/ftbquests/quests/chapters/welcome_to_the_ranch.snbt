@@ -25,7 +25,7 @@
 				""
 				"are &6&lgreatly excited&r to welcome to your new home on &asphere&r: &d&lGelatine-XB47&r!"
 				""
-				"Please tap &8[&a➡&8]&r on your &e&lHologuide&r™ to proceed through customary welcoming procedure process"
+				"Please tap &8[&a➡&8]&r on your &e&lHologuide&r™ to proceed through customary welcoming procedure process."
 				"{@pagebreak}"
 				"This &asphere&r has been labeled as a:"
 				""
@@ -146,7 +146,7 @@
 		{
 			dependencies: ["105AAC47FE089F4B"]
 			description: [
-				"Your primary assigned task is to discover and record all of the &dGela-forms&r present on the &asphere&r"
+				"Your primary assigned task is to discover and record all of the &dGela-forms&r present on the &asphere&r."
 				""
 				"You are also&6 heavily encouraged&r to perform \"Fusion Breeding\" on any undiscovered &dGela-forms&r you may find, and record the data of the products!"
 				""
@@ -241,9 +241,15 @@
 				""
 				"&9&lOur entity&r will always be referred to in a &l&9bold blue&r."
 				""
+				"&bLaboratory&r : The &bLab&r is &9&lSSCCOGAC&r&r's method of lending knowledge from &l&9our&r&r databases."
+				""
+				"The &bLab&r and related things will be highlighted in &bcyan&r."
+				""
 				"{@pagebreak}"
 				""
-				"&4Who? &r: &4[ &kWouldn't &lyou&r &4&klike to know, &lviewer?&r &4]"
+				"&4Who?&r : &4[ &kWouldn't &lyou&r &4&klike to know, &lviewer?&r &4]"
+				""
+				"&2What?&r : &2[ &kWouldn't you like to know &lviewer?&r&r &2]&r"
 			]
 			icon: "guideme:guide"
 			id: "0052442A797103F2"
@@ -321,9 +327,9 @@
 		{
 			dependencies: ["6B93B28705E58C2F"]
 			description: [
-				"Around the &asphere&r you'll find wild &dGelaforms&r roaming the surface"
+				"Around the &asphere&r you'll find wild &dGelaforms&r roaming the surface."
 				""
-				"Your &eSlime-Vac&r can be used to pull and collect the &dslimes&r by sneaking near them or by holding the trigger while on \"&d&lSlime&r\" or \"&lBoth&r\" mode"
+				"Your &eSlime-Vac&r can be used to pull and collect the &dslimes&r by sneaking near them or by holding the trigger while on \"&d&lSlime&r\" or \"&lBoth&r\" mode."
 				""
 				"The mode of your &eSlime-Vac&r can be cycled using the \"&e&lV&r\" key by default!"
 				""
@@ -374,13 +380,13 @@
 			description: [
 				"To keep your &dslimes&r happy and producing &eplorts&r, they must be fed!"
 				""
-				"The &asphere&f has foods and animals scattered about that varying &dslimes&r can eat"
+				"The &asphere&f has foods and animals scattered about that varying &dslimes&r can eat."
 				""
-				"Every individual &dslime&r breed has it's own diet being &eitems&r or mobs it can eat, along with a favorite food in that diet group"
+				"Every individual &dslime&r breed has it's own diet being &eitems&r or mobs it can eat, along with a favorite food in that diet group."
 				""
 				"you should experiment to find which the &dslimes&r &efavorite food&r is!"
 				""
-				"&dSlimes&r will eat &eitems&r of it's diet found on the ground, mobs nearby, or &eitems&r placed inside of a &eSlime Feeder&r"
+				"&dSlimes&r will eat &eitems&r of it's diet found on the ground, mobs nearby, or &eitems&r placed inside of a &eSlime Feeder&r."
 				""
 				"&8[&r &7Hunger acts like more of a cooldown to eat than an amount to be fed, all foods will fill the entire bar&r &8]&r"
 				""
@@ -420,15 +426,15 @@
 		{
 			dependencies: ["24EC9B4811458C2E"]
 			description: [
-				"&ePlorts&r are gelatinous balls left on the ground when a &dslime&r is fed at it's max size"
+				"&ePlorts&r are gelatinous balls left on the ground when a &dslime&r is fed at it's max size."
 				""
-				"Regularly 1 &eplort&r will be produced, 2 when fed it's &efavorite food&r, and for &dlargo slimes&r one of each of the breeds"
+				"Regularly 1 &eplort&r will be produced, 2 when fed it's &efavorite food&r, and for &dlargo slimes&r one of each of the breeds."
 				""
 				"They are the main &eproducts&r of &dslimes&r, sought out for containing &6valuable&r &eresources&r within that can be extracted with a &ePlort Rippit&r!"
 				""
-				"However you don't quite want to extract &eresources&r from ALL of the &eplorts&r you get"
+				"However you don't quite want to extract &eresources&r from ALL of the &eplorts&r you get."
 				""
-				"They can be sold on the &cPlort Market&r from a &eSales Terminal&r for &cGlubcoins&r, or saved up to form a new slime with a &ePlort Press&r and &eIncubator&r"
+				"They can be sold on the &cPlort Market&r from a &eSales Terminal&r for &cGlubcoins&r, or saved up to form a new slime with a &ePlort Press&r and &eIncubator&r."
 			]
 			icon: {
 				Count: 1
@@ -467,13 +473,13 @@
 		{
 			dependencies: ["1E8294B92E62B946"]
 			description: [
-				"On the completion of your last task &9&lwe&r granted you a &eSales Terminal&r"
+				"On the completion of your last task &9&lwe&r granted you a &eSales Terminal&r."
 				""
-				"The &eSales Terminal&r is your primary means of earning &ccurrency&r for your work"
+				"The &eSales Terminal&r is your primary means of earning &ccurrency&r for your work."
 				""
-				"Using the machines interface you can deposit &eplorts&r into the slots and select the sell button to confirm sending them to the &l&9SSCCOGAC&r for payment in &cGlubcoins&r"
+				"Using the machines interface you can deposit &eplorts&r into the slots and select the sell button to confirm sending them to the &l&9SSCCOGAC&r for payment in &cGlubcoins&r."
 				""
-				"The &eSales Terminal&r is patented technology, do not tamper with it to try and understand the inner workings, or your contract and stay on &d&lGelatine-XB47&r will be &4voided&r &9^o^"
+				"The &eSales Terminal&r is patented technology, do not tamper with it to try and understand the inner workings, or your contract and stay on &d&lGelatine-XB47&r will be &4voided&r. &9^o^"
 			]
 			icon: "mbd2:selling_port"
 			id: "3A30D0E70BEA4946"
@@ -500,15 +506,15 @@
 			description: [
 				"This machine is the &ePlort Rippit&r. It is used to extract many &eresources&r from &eplorts&r!"
 				""
-				"Every &dslime&r breeds &eplort&r has different resources it can produce"
+				"Every &dslime&r breeds &eplort&r has different resources it can produce."
 				""
 				"Some &eplorts&r have one item that can be extracted, some have several more! "
 				""
-				"There can be 9 different possible outputs at most but you will always receive &o&njust one&r of the outputs"
+				"There can be 9 different possible outputs at most but you will always receive &o&njust one&r of the outputs."
 				""
-				"The item you extract from the &eplort&r using the &eRippit&r is random, some items output more frequently than others"
+				"The item you extract from the &eplort&r using the &eRippit&r is random, some items output more frequently than others."
 				""
-				"The chance of each output is listed in your Recipe Guide"
+				"The chance of each output is listed in your Recipe Guide."
 			]
 			icon: "splendid_slimes:plort_rippit"
 			id: "01150FF03DEBB716"
@@ -577,9 +583,9 @@
 			description: [
 				"&eSlime Hearts&r obtained from the &ePlort Press&r or &eFusion Breeder&r can be placed inside of an incubator to be slowly grown into a whole new &dslime&r!"
 				""
-				"After a while the newly grown &dslime&r is ejected from the back of the &eIncubator&r"
+				"After a while the newly grown &dslime&r is ejected from the back of the &eIncubator&r."
 				""
-				"The newly grown &dslime&r will start as a \"wild &dslime&r\" with Neutral happiness"
+				"The newly grown &dslime&r will start as a \"wild &dslime&r\" with Neutral happiness."
 			]
 			icon: "splendid_slimes:slime_incubator"
 			id: "56F49C5A7B13623E"
@@ -628,7 +634,7 @@
 		{
 			dependencies: ["3A30D0E70BEA4946"]
 			description: [
-				"Our &cSplendid Wares Shop&r provides ranchers (thats you!) many utilities"
+				"Our &cSplendid Wares Shop&r provides ranchers (thats you!) many utilities."
 				""
 				"Allowing you to &cpurchase&r more of our own &9&lSSCCOGAC&r Technology!"
 				""
@@ -712,11 +718,11 @@
 			description: [
 				"&9&lWe&r have implemented a new tab to your &l&eHologuide&r™, the &eGelapedia&r!"
 				""
-				"The &eGelapedia&r is a listing of all the &dGelaforms&r and animals that can be found on this &asphere&r, along with which habitats they belong to"
+				"The &eGelapedia&r is a listing of all the &dGelaforms&r and animals that can be found on this &asphere&r, along with which habitats they belong to."
 				""
 				"Your &eGelapedia&r also displays all of the possible &dfusion slime&r combinations found from &dslimes&r you have located! "
 				""
-				"Part of your assignment is to collect all of them for the &9&lSSCCOGAC&r's researches"
+				"Part of your assignment is to collect all of them for the &9&lSSCCOGAC&r's researches."
 			]
 			icon: "alexscaves:cave_book"
 			id: "341207DD87C622A8"
@@ -735,11 +741,11 @@
 		{
 			dependencies: ["24EC9B4811458C2E"]
 			description: [
-				"When a &dslime&r is first found it'll typically have the \"Neutral\" state, this is the &dslimes&r current happiness"
+				"When a &dslime&r is first found it'll typically have the \"Neutral\" state, this is the &dslimes&r current happiness."
 				""
-				"You can view the current happiness state by looking at the &dslime&r close up"
+				"You can view the current happiness state by looking at the &dslime&r close up."
 				""
-				"Both wild and fed &dslimes&r have happiness, but you can only see the state of one that has been fed before"
+				"Both wild and fed &dslimes&r have happiness, but you can only see the state of one that has been fed before."
 				""
 				"&a&l&n^ Increasing"
 				"- &dSlimes&r have their happiness increased when fed"
@@ -793,15 +799,15 @@
 			description: [
 				"Feeding a non-furious &dslime&r another &dslimes&r &eplort&r will create a &dLargo Slime&r!"
 				""
-				"These &dslimes&r become a combination of both the original &dslime&r, and the &dslime&r breed of the &eplort&r eaten"
+				"These &dslimes&r become a combination of both the original &dslime&r, and the &dslime&r breed of the &eplort&r eaten."
 				""
-				"&dLargo slimes&r output a &eplort&r for each of the breeds and even share a diet, though &dslimes&r with the dominant or recessive traits can change the diet outcome for &dLargo Slimes&r"
+				"&dLargo slimes&r output a &eplort&r for each of the breeds and even share a diet, though &dslimes&r with the dominant or recessive traits can change the diet outcome for &dLargo Slimes&r."
 				""
-				"The new &dLargo Slime&r will use the base of the original &dslime&r, and the hat of the breed from the &eplort&r eaten"
+				"The new &dLargo Slime&r will use the base of the original &dslime&r, and the hat of the breed from the &eplort&r eaten."
 				""
 				"Feeding a largo &dslime&r a 3rd type of &eplort&r can cause... &4Bad things&r! Don't do that. &9^v^&r"
 				""
-				"Also note you cannot pick up &dLargo Slimes&r using your &eSlime-Vac&r, it will just pull them around"
+				"Also note you cannot pick up &dLargo Slimes&r using your &eSlime-Vac&r, it will just pull them around."
 			]
 			icon: {
 				Count: 1
@@ -844,9 +850,9 @@
 			description: [
 				"The &9&lSSCCOGAC&r recommends you go beyond &9&lour&r technology and form your own contraptions to assist your on-base operations!"
 				""
-				"We can assist you by providing the &bblueprints&r to mechanical machinery via the &blab&r in exchange for &ccurrency&r"
+				"We can assist you by providing the &bblueprints&r to mechanical machinery via the &blab&r in exchange for &ccurrency&r."
 				""
-				"Although you can find and create your own devices using resources like redstone found on the &asphere&r"
+				"Although you can find and create your own devices using resources like redstone found on the &asphere&r."
 				""
 				"There also seems to be... what... is &2this&r?"
 			]
@@ -907,7 +913,7 @@
 			description: [
 				"What is this? We do not recall this page being here..."
 				""
-				"Whatever it is, we would not recommend touching technology we do not understand &9^o^"
+				"Whatever it is, &9&lwe&r&r would not recommend touching technology &l&9we&r&r do not understand. &9^o^"
 			]
 			icon: {
 				Count: 1
@@ -947,7 +953,7 @@
 		}
 		{
 			dependencies: ["611599F122718E16"]
-			description: ["With rotational power, much is achievable! The &9&lSSCCOGAC&r provides &bblueprints&r in the &blab&r for our designs on mechanical devices"]
+			description: ["With rotational power, much is achievable! The &9&lSSCCOGAC&r provides &bblueprints&r in the &blab&r for our designs on mechanical devices."]
 			icon: "create:wrench"
 			id: "0DA69A84028E2CD4"
 			shape: "diamond"
@@ -979,7 +985,7 @@
 		}
 		{
 			dependencies: ["611599F122718E16"]
-			description: ["Redstone, rails, computers and more! The purist route, preferring more vanilla esque methods and or computer scripts"]
+			description: ["&eRedstone&r, &erails&r, &ecomputers&r and more! The purist route, preferring more vanilla esque methods and or computer scripts."]
 			icon: {
 				Count: 1
 				id: "essentials:circuit_wrench"
@@ -1019,13 +1025,13 @@
 			description: [
 				"The rate at which you sell &eplorts&r for through a &eSales Terminal&r is not static, in fact it is greatly ever-changing!"
 				""
-				"Every day early in the morning, the whole &cmarket&r and each individual &eplorts&r values will &cfluctuate&r, and you will be alerted on the updates"
+				"Every day early in the morning, the whole &cmarket&r and each individual &eplorts&r values will &cfluctuate&r, and you will be alerted on the updates."
 				""
-				"Selling a &eplort&r will cause the &dslime&r breeds &eplort&r &cmarket price&r to drop based on however much you sold on the next day, prices will not change mid day"
+				"Selling a &eplort&r will cause the &dslime&r breeds &eplort&r &cmarket price&r to drop based on however much you sold on the next day, prices will not change mid day."
 				""
 				"On top of that there can be &eplorts&r in &6high demand&r, having a &6hugely&r inflated &csell price&r for the day!"
 				""
-				"Due to all these &cfluctuations&r it may be a good idea to hold onto your &eplorts&r until there is a good day to sell them, or wait for their price to recover after selling plenty"
+				"Due to all these &cfluctuations&r it may be a good idea to hold onto your &eplorts&r until there is a good day to sell them, or wait for their price to recover after selling plenty."
 			]
 			icon: {
 				Count: 1
@@ -1054,15 +1060,15 @@
 		{
 			dependencies: ["540EA146149A0210"]
 			description: [
-				"While &dslimes&r can be stored in any sort of containment, certain &dslimes&r may be able to get through the materials"
+				"While &dslimes&r can be stored in any sort of containment, certain &dslimes&r may be able to get through the materials."
 				""
-				"And it can be difficult to manage the &dslimes&r in these pens, jumping in and out to collect &eplorts&r or feed them"
+				"And it can be difficult to manage the &dslimes&r in these pens, jumping in and out to collect &eplorts&r or feed them."
 				""
 				"For this we have &eCorral&r blocks!"
 				""
 				"&eCorrals&r are a block that &dslimes&r cannot pass through, while still allowing players and items!"
 				""
-				"When powered with redstone it will also prevent all other mobs from passing through the block"
+				"When powered with redstone it will also prevent all other mobs from passing through the block."
 				""
 				"You can purchase more &eCorral&r blocks from the &cSplendid Wares&r Quest Page! (When unlocked)"
 				""
@@ -1093,11 +1099,11 @@
 		{
 			dependencies: ["611599F122718E16"]
 			description: [
-				"The &blab&r is the &l&9SSCCOGAC&r's method of lending knowledge from &9&lour&r databases"
+				"The &blab&r is the &l&9SSCCOGAC&r's method of lending knowledge from &9&lour&r databases."
 				""
 				"By purchasing &bblueprints&r from the lab you can learn how to create new machines and gadgets that could assist you in your ranching, such as mechanical devices!"
 				""
-				"And... it seems something &2else&r has appeared? We are unsure of the &2origins&r, it is up to you to investigate further &9>w<&r"
+				"And... it seems something &2else&r has appeared? We are unsure of the &2origins&r, it is up to you to investigate further. &9>w<&r"
 				""
 				"&8[&r &7Fulfilling a lab research quest will grant your team the ability to use the crafting table recipe for the researches related craft outputs &8]&r"
 			]
@@ -1140,7 +1146,7 @@
 				""
 				"There's a great chance the &dslimes&r here have evolved to eat some of these animals and even prefer certain ones from their &aenvironments&r."
 				""
-				"You are advised to collect and cultivate these animals to ensure your &dslimes&r are fed and kept producing &eplorts&r"
+				"You are advised to collect and cultivate these animals to ensure your &dslimes&r are fed and kept producing &eplorts&r."
 			]
 			icon: "minecraft:chicken"
 			id: "015AC5B2CFF2FAAE"
@@ -1163,7 +1169,7 @@
 				""
 				"Each of the &aspheres&r &abiomes&r has it's own unique &dslimes&r, animals and &efoods&r to be found for your cultivating needs!"
 				""
-				"And remember to explore below! There could be new &dslimes&r to be found &9^o^"
+				"And remember to explore below! There could be new &dslimes&r to be found. &9^o^"
 			]
 			icon: {
 				Count: 1
@@ -1195,7 +1201,6 @@
 				"52920F4617FAEE25"
 				"112484FF0BE3AF63"
 				"190A191644CF15F9"
-				"55CDCD7FE68DA743"
 				"436E38D04AA33B83"
 				"001EDDF575B9A323"
 			]
